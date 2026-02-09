@@ -10,7 +10,8 @@ from customer_intelligence.schemas.extraction import ExtractionResult
 from customer_intelligence.schemas.summary import TranscriptSummary
 from customer_intelligence.schemas.transcript import Transcript
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+_FILE_BASED_ROOT = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = _FILE_BASED_ROOT if (_FILE_BASED_ROOT / "data").exists() else Path.cwd()
 DATA_DIR = PROJECT_ROOT / "data"
 TRANSCRIPTS_DIR = DATA_DIR / "transcripts"
 GROUND_TRUTH_DIR = DATA_DIR / "ground_truth"
