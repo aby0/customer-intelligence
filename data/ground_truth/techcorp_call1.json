@@ -1,0 +1,714 @@
+{
+  "transcript_id": "techcorp_call1",
+  "extraction_timestamp": "2026-02-07T00:00:00Z",
+  "surface": {
+    "aspects": [
+      {
+        "aspect": "ROI",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "ROI calculations based on marketing spend waste reduction, conservative estimates show 230K-345K year one savings",
+        "source_utterance_indices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          21,
+          22,
+          26
+        ]
+      },
+      {
+        "aspect": "pricing",
+        "sentiment": "mixed",
+        "intensity": 0.7,
+        "context": "Initial 185K proposal negotiated down to 177K with quarterly payment terms",
+        "source_utterance_indices": [
+          7,
+          8,
+          9,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          32
+        ]
+      },
+      {
+        "aspect": "implementation",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "12-16 week phased approach with dedicated support, manageable resource requirements",
+        "source_utterance_indices": [
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          30,
+          31
+        ]
+      },
+      {
+        "aspect": "competitive positioning",
+        "sentiment": "positive",
+        "intensity": 0.7,
+        "context": "CompetitorX comparison addressed with module differences and implementation challenges",
+        "source_utterance_indices": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "aspect": "feature completeness",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "Multi-touch attribution included, dedicated support vs competitor self-service model",
+        "source_utterance_indices": [
+          10,
+          19
+        ]
+      },
+      {
+        "aspect": "timeline",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "Quick value delivery in phase one (month 2), faster than competitor's 9 months",
+        "source_utterance_indices": [
+          11,
+          13,
+          15,
+          22
+        ]
+      },
+      {
+        "aspect": "internal buy-in",
+        "sentiment": "mixed",
+        "intensity": 0.6,
+        "context": "CFO needs to sell to CEO, budget pressure on new tool spend",
+        "source_utterance_indices": [
+          25,
+          32
+        ]
+      },
+      {
+        "aspect": "business pain",
+        "sentiment": "negative",
+        "intensity": 0.8,
+        "context": "Lead attribution problems, marketing-sales alignment issues, inability to prove marketing impact",
+        "source_utterance_indices": [
+          1,
+          6,
+          34
+        ]
+      },
+      {
+        "aspect": "resource constraints",
+        "sentiment": "neutral",
+        "intensity": 0.6,
+        "context": "Lean team concerns addressed through phased approach requiring 5 hours/week initially",
+        "source_utterance_indices": [
+          12,
+          15,
+          16
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "name": "ROI justification",
+        "timeline_position": "early",
+        "relevance": 0.95
+      },
+      {
+        "name": "pricing negotiation",
+        "timeline_position": "late",
+        "relevance": 0.9
+      },
+      {
+        "name": "competitive comparison",
+        "timeline_position": "mid",
+        "relevance": 0.75
+      },
+      {
+        "name": "implementation planning",
+        "timeline_position": "mid",
+        "relevance": 0.85
+      },
+      {
+        "name": "resource requirements",
+        "timeline_position": "mid",
+        "relevance": 0.7
+      },
+      {
+        "name": "payment terms",
+        "timeline_position": "late",
+        "relevance": 0.65
+      },
+      {
+        "name": "next steps",
+        "timeline_position": "late",
+        "relevance": 0.8
+      }
+    ],
+    "entities": [
+      {
+        "name": "David Chen",
+        "entity_type": "person",
+        "role": "CFO",
+        "mention_count": 8
+      },
+      {
+        "name": "Sarah Kim",
+        "entity_type": "person",
+        "role": "VP Marketing",
+        "mention_count": 7
+      },
+      {
+        "name": "TechCorp",
+        "entity_type": "company",
+        "role": "prospect",
+        "mention_count": 2
+      },
+      {
+        "name": "CompetitorX",
+        "entity_type": "competitor",
+        "role": "alternative solution",
+        "mention_count": 2
+      },
+      {
+        "name": "DataFlow Inc",
+        "entity_type": "company",
+        "role": "reference account",
+        "mention_count": 1
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "lead attribution problem",
+        "relevance": 0.9,
+        "context": "core business pain point driving purchase"
+      },
+      {
+        "phrase": "actual ROI we're looking at",
+        "relevance": 0.95,
+        "context": "CFO's primary evaluation criteria"
+      },
+      {
+        "phrase": "confidence interval",
+        "relevance": 0.85,
+        "context": "analytical approach to evaluating assumptions"
+      },
+      {
+        "phrase": "resource drain",
+        "relevance": 0.75,
+        "context": "implementation concern for lean team"
+      },
+      {
+        "phrase": "payback period",
+        "relevance": 0.9,
+        "context": "financial evaluation metric"
+      },
+      {
+        "phrase": "phased approach",
+        "relevance": 0.8,
+        "context": "implementation strategy addressing resource concerns"
+      },
+      {
+        "phrase": "quick wins",
+        "relevance": 0.75,
+        "context": "value delivery in phase one"
+      },
+      {
+        "phrase": "confident yes",
+        "relevance": 0.85,
+        "context": "closing question to uncover pricing objection"
+      },
+      {
+        "phrase": "cost of not fixing",
+        "relevance": 0.9,
+        "context": "champion's ROI framing argument"
+      },
+      {
+        "phrase": "cash flow positive",
+        "relevance": 0.85,
+        "context": "financial milestone in payback calculation"
+      }
+    ]
+  },
+  "behavioral": {
+    "objection_triples": [
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "That number assumes we can actually redirect that spend effectively. What's the confidence interval on that 15% figure?",
+          "speaker_role": "CFO",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            4
+          ]
+        },
+        "resolution": {
+          "type": "roi_argument",
+          "specific_language": "That's based on your attribution gap analysis from last quarter that Sarah shared with us. But conservatively, even at 10%, you're looking at 230K in year one.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            5
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "moved to pricing discussion"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "competition",
+          "specific_language": "And we looked at CompetitorX as well. They came in at 140K for what seemed like comparable functionality.",
+          "speaker_role": "CFO",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            9
+          ]
+        },
+        "resolution": {
+          "type": "social_proof",
+          "specific_language": "CompetitorX does have a lower entry point, but there are some meaningful differences. Their multi-touch attribution requires a separate module that runs another 60K, and their customer success model is largely self-service.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            10,
+            11
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "champion added supporting evidence about competitor implementation issues"
+        },
+        "confidence": 0.9
+      },
+      {
+        "objection": {
+          "type": "implementation",
+          "specific_language": "So on implementation, what's the realistic timeline here? We're a lean team and I'm concerned about the resource drain.",
+          "speaker_role": "CFO",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            12
+          ]
+        },
+        "resolution": {
+          "type": "phased_rollout",
+          "specific_language": "We typically see full implementation in 12 to 16 weeks with a phased approach... Phase one is weeks one through four. We'd focus exclusively on your paid channels - Google, LinkedIn, your display campaigns. This gets you quick wins and data flowing without overwhelming your team. Sarah's team would need maybe 5 hours per week during this phase.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            13,
+            15,
+            17
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "champion confirmed resource availability"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "And you have dedicated implementation support throughout this? What happens if we hit technical roadblocks?",
+          "speaker_role": "CFO",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            18
+          ]
+        },
+        "resolution": {
+          "type": "risk_mitigation",
+          "specific_language": "You'd have a dedicated implementation manager and a technical solutions engineer assigned to your account. That's included in the pricing. They're on call for any blockers and we have weekly check-ins built into the timeline.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            19
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "moved to payback period discussion"
+        },
+        "confidence": 0.9
+      },
+      {
+        "objection": {
+          "type": "pricing",
+          "specific_language": "Okay, that's reasonable. What about the pricing itself - is there any flexibility on the 185K given our size? We're at 280 employees, not quite at the 500 mark.",
+          "speaker_role": "CFO",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            23
+          ]
+        },
+        "resolution": {
+          "type": "discount",
+          "specific_language": "If you can commit to an annual contract today, I could potentially bring this to 177K. That would need approval from my VP, but I think there's a path given Sarah's advocacy and your clear use case.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            27
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "negotiated payment terms and moved to close"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "authority",
+          "specific_language": "honestly if we could get closer to 170K, that would help me sell this internally to our CEO. We're being pretty cautious with new tool spend this year.",
+          "speaker_role": "CFO",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            25
+          ]
+        },
+        "resolution": {
+          "type": "discount",
+          "specific_language": "If you can commit to an annual contract today, I could potentially bring this to 177K.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            27
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "CFO accepted and moved to close"
+        },
+        "confidence": 0.85
+      }
+    ],
+    "buying_intent_markers": [
+      {
+        "type": "timeline_question",
+        "evidence": "So on implementation, what's the realistic timeline here?",
+        "confidence": 0.85,
+        "source_utterance_indices": [
+          12
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "And you have dedicated implementation support throughout this? What happens if we hit technical roadblocks?",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          18
+        ]
+      },
+      {
+        "type": "if_to_when_shift",
+        "evidence": "what's the payback period when we factor in implementation time and the ramp to full value?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          21
+        ]
+      },
+      {
+        "type": "budget_confirmation",
+        "evidence": "Alright. Sarah, you're confident your team can dedicate the implementation time we discussed?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          30
+        ]
+      },
+      {
+        "type": "next_steps_request",
+        "evidence": "The ROI math works, the implementation plan addresses my resource concerns, and the pricing is reasonable at 177K. What's the next step?",
+        "confidence": 0.98,
+        "source_utterance_indices": [
+          32
+        ]
+      },
+      {
+        "type": "stakeholder_introduction",
+        "evidence": "David's been reviewing the proposal and I think this is a great opportunity for us to align",
+        "confidence": 0.8,
+        "source_utterance_indices": [
+          1
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "Can we do quarterly payment terms?",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          28
+        ]
+      },
+      {
+        "type": "other",
+        "evidence": "Send over that agreement and we'll get this moving.",
+        "confidence": 0.98,
+        "source_utterance_indices": [
+          36
+        ]
+      }
+    ],
+    "competitive_mentions": [
+      {
+        "competitor": "CompetitorX",
+        "context": "Price comparison at 140K for comparable functionality",
+        "sentiment": "negative",
+        "comparison_type": "pricing",
+        "source_utterance_indices": [
+          9
+        ]
+      },
+      {
+        "competitor": "CompetitorX",
+        "context": "Multi-touch attribution requires separate 60K module, self-service model, 9-month implementation at DataFlow Inc with consultant needed",
+        "sentiment": "negative",
+        "comparison_type": "functionality and implementation",
+        "source_utterance_indices": [
+          10,
+          11
+        ]
+      }
+    ],
+    "engagement_trajectory": [
+      {
+        "phase": "early",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "CFO immediately dove into ROI assumptions and confidence intervals, showing analytical rigor. Champion actively advocating."
+      },
+      {
+        "phase": "mid",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "medium",
+        "notes": "CFO systematically worked through competitive comparison, implementation concerns, and risk mitigation. Champion provided supporting evidence."
+      },
+      {
+        "phase": "late",
+        "participation_level": "high",
+        "question_depth": "moderate",
+        "energy": "medium",
+        "notes": "Shifted to pricing negotiation and payment terms. CFO showed hesitation but moved to close after price concession. Champion maintained advocacy throughout."
+      }
+    ]
+  },
+  "psychographic": {
+    "mental_model": {
+      "primary": "risk_mitigation",
+      "secondary": "cost_reduction",
+      "evidence": [
+        "What's the confidence interval on that 15% figure?",
+        "What happens if we hit technical roadblocks?",
+        "what's the payback period when we factor in implementation time",
+        "We're being pretty cautious with new tool spend this year",
+        "I'm concerned about the resource drain"
+      ],
+      "confidence": 0.95,
+      "reasoning": "CFO David Chen consistently frames questions around de-risking the investment: confidence intervals on ROI assumptions, implementation support for technical issues, conservative payback calculations, and resource constraints. While cost reduction (345K savings) is important, his primary lens is ensuring the investment won't fail or drain resources. He needs multiple layers of assurance before committing. The hesitation markers and body language at closing (closed posture, minimal gesturing, resigned acceptance tone) further indicate this is a risk-averse buyer being pushed by champion pressure and rational argument rather than enthusiasm."
+    },
+    "persona_indicators": [
+      {
+        "archetype": "analytical_evaluator",
+        "confidence": 0.98,
+        "evidence": [
+          "Can you walk me through your assumptions?",
+          "What's the confidence interval on that 15% figure?",
+          "How does that compare to what similar mid-market companies are paying?",
+          "what's the payback period when we factor in implementation time and the ramp to full value?",
+          "reviewing_documents, pen_in_hand, note_taking behaviors throughout",
+          "Systematic progression through ROI, competition, implementation, pricing"
+        ],
+        "reasoning": "David Chen perfectly exemplifies analytical_evaluator persona. Every question probes data, assumptions, and comparables. He requests confidence intervals, benchmark pricing, payback calculations. His behavior (document review, note-taking, pen tapping) and tone (analytical, calculating, probing) show methodical evaluation. He doesn't make emotional decisions - even at close, his acceptance is 'resigned' rather than enthusiastic, based on rational conclusion that 'ROI math works'."
+      },
+      {
+        "archetype": "executive_champion",
+        "confidence": 0.95,
+        "evidence": [
+          "I think this is a great opportunity for us to align on how this solves our lead attribution problem",
+          "that doesn't even account for the velocity improvements",
+          "We've been losing deals because we can't prove marketing's impact",
+          "I actually spoke with their reference at DataFlow Inc",
+          "the cost of not fixing our attribution problem is way higher than 185K",
+          "I've already talked to my marketing ops lead about this. We're ready to move",
+          "High energy, confident tone, persuasive and advocating language throughout"
+        ],
+        "reasoning": "Sarah Kim is the textbook executive_champion. She frames the problem strategically, has already done pre-work (reference calls, internal team prep), actively advocates during negotiation ('David, I get the budget pressure, but...'), and repeatedly redirects focus from cost to business impact. Her energy and confidence remain high throughout, and she uses urgency framing to push the deal forward."
+      }
+    ],
+    "language_fingerprint": {
+      "distinctive_vocabulary": [
+        "confidence interval",
+        "attribution gap analysis",
+        "payback period",
+        "cash flow positive",
+        "phased approach",
+        "conservative estimates",
+        "resource drain",
+        "velocity improvements",
+        "quick wins"
+      ],
+      "metaphors": [
+        "cost of not fixing",
+        "marketing and sales aligned",
+        "layer in"
+      ],
+      "framing_patterns": [
+        "CFO consistently frames in financial metrics: ROI, payback, cash flow, confidence intervals",
+        "Champion frames in business outcomes: alignment, velocity, proving impact, competitive positioning",
+        "Rep mirrors both: uses financial language with CFO, business value language with champion",
+        "CFO uses hedging language when uncomfortable: 'um', 'honestly', longer pauses before pricing objections"
+      ]
+    }
+  },
+  "multimodal": {
+    "divergences": [
+      {
+        "utterance_index": 23,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "2.1 second pause before speaking",
+          "low energy",
+          "flat pitch",
+          "hesitation marker 'um'",
+          "minimal eye contact",
+          "shifting in seat"
+        ],
+        "interpretation": "CFO is uncomfortable initiating price negotiation. The long pause and low energy with avoidant body language suggest internal conflict between wanting the discount and not wanting to appear difficult. The 'um' and seat shifting indicate this is a prepared but uncomfortable ask.",
+        "confidence": 0.9
+      },
+      {
+        "utterance_index": 25,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "1.3 second pause",
+          "low energy",
+          "falling pitch",
+          "multiple hesitation markers 'um', 'uh'",
+          "avoiding eye contact",
+          "hand rubbing"
+        ],
+        "interpretation": "CFO revealing true pricing concern and internal political challenge (CEO approval). Hand rubbing and eye avoidance suggest discomfort with negotiating position or revealing budget constraints. This is a genuine vulnerability disclosure, not a tactical negotiation move.",
+        "confidence": 0.95
+      },
+      {
+        "utterance_index": 32,
+        "type": "text_positive_audio_negative",
+        "text_sentiment": "positive",
+        "nonverbal_cues": [
+          "1.8 second pause before responding",
+          "low energy",
+          "flat pitch",
+          "hesitation marker 'um'",
+          "minimal gesturing",
+          "closed posture",
+          "brief eye contact"
+        ],
+        "interpretation": "Despite verbally committing ('ROI math works... What's the next step?'), CFO's body language shows reluctance or lack of enthusiasm. This is resigned acceptance driven by rational analysis and champion pressure rather than genuine excitement. The closed posture and minimal energy suggest he's still uncomfortable with the investment despite logical agreement.",
+        "confidence": 0.92
+      },
+      {
+        "utterance_index": 4,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "0.5 second pause",
+          "medium energy",
+          "rising pitch",
+          "challenging tone",
+          "crossed arms",
+          "eye contact maintained"
+        ],
+        "interpretation": "While the question appears neutral, the crossed arms with challenging tone and maintained eye contact indicate skepticism and defensive posture. CFO is stress-testing assumptions, not just gathering information. The rising pitch on a challenge suggests he's ready to push back if answer is unsatisfactory.",
+        "confidence": 0.85
+      },
+      {
+        "utterance_index": 9,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "1.0 second pause",
+          "medium energy",
+          "rising pitch",
+          "testing tone",
+          "watching reaction"
+        ],
+        "interpretation": "CFO is tactically deploying competitive information while watching for rep's reaction. The pause before speaking and 'watching reaction' behavior indicate this is a prepared negotiation move, not spontaneous information sharing. He's testing how rep handles price pressure.",
+        "confidence": 0.88
+      }
+    ],
+    "composite_sentiments": [
+      {
+        "utterance_index": 23,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.9,
+        "note": "Discomfort and hesitation in nonverbals reveal this is actually an uncomfortable pricing objection masked as neutral inquiry"
+      },
+      {
+        "utterance_index": 25,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.95,
+        "note": "Multiple stress indicators (hand rubbing, eye avoidance, hesitation markers) show genuine concern about budget constraints and internal approval"
+      },
+      {
+        "utterance_index": 32,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "neutral",
+        "confidence": 0.92,
+        "note": "Closed posture and low energy contradict positive verbal commitment, indicating resigned acceptance rather than enthusiastic agreement"
+      },
+      {
+        "utterance_index": 4,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.85,
+        "note": "Crossed arms and challenging tone reveal skepticism beneath neutral question format"
+      },
+      {
+        "utterance_index": 9,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.88,
+        "note": "Tactical competitive mention delivered while watching reaction indicates negotiation pressure, not neutral comparison"
+      },
+      {
+        "utterance_index": 12,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.8,
+        "note": "Concerned tone and leaning back behavior show this is a genuine worry about resource constraints, not just information gathering"
+      },
+      {
+        "utterance_index": 18,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.75,
+        "note": "Skeptical tone and pen tapping indicate lingering doubt about implementation support claims"
+      }
+    ]
+  },
+  "overall_confidence": 0.9,
+  "notes": [
+    "ground truth annotation — human review recommended"
+  ]
+}

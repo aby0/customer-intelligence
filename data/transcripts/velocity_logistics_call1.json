@@ -1,0 +1,540 @@
+{
+  "account": {
+    "company_name": "Velocity Logistics",
+    "company_size": "mid_market",
+    "industry": "Supply Chain & Logistics",
+    "deal_stage": "close",
+    "deal_outcome": "won",
+    "stakeholders": [
+      {
+        "name": "Karen Whitfield",
+        "role": "COO",
+        "persona_type": "analytical_evaluator"
+      },
+      {
+        "name": "Derek Huang",
+        "role": "Head of Revenue Operations",
+        "persona_type": "executive_champion"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "velocity_logistics_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 30,
+    "participants": [
+      "rep",
+      "prospect_coo",
+      "prospect_head_of_revenue_operations"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Karen, Derek, good to see you both again. Last time we walked through the demo and you had a chance to trial the platform for two weeks. I'm curious how it went.",
+      "turn_index": 0,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "warm",
+        "behaviors": [
+          "relaxed_posture",
+          "smile"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "Honestly it exceeded expectations. My team was able to set up the pipeline tracking in about two hours and we immediately spotted three deals that were miscategorized in our CRM. That alone would have cost us probably 40K in missed follow-ups this quarter.",
+      "turn_index": 1,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "gesturing",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Derek's team liked it. I'll give you that. But I want to talk about the broader picture before we get ahead of ourselves.",
+      "turn_index": 2,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "measured",
+        "behaviors": [
+          "reviewing_notes",
+          "pen_in_hand"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. What's on your mind?",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Three things. Pricing, integration with our existing tech stack, and whether this actually scales as we grow. We're at 350 employees now, but we're projecting 600 by end of next year with the warehouse expansion.",
+      "turn_index": 4,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "structured",
+        "behaviors": [
+          "counting_on_fingers",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Great questions. Let me take them in order. On pricing, for your current headcount and usage, you'd be on our Growth plan at $156,000 annually. As you scale to 600, that would move to $198,000. So roughly a 27% increase for a 70% headcount growth.",
+      "turn_index": 5,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "clear",
+        "behaviors": [
+          "open_posture",
+          "referencing_proposal"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "So the per-seat cost goes down as we grow. That's good. But $156K is still above what we budgeted. We had earmarked $120K for a revenue operations tool this year.",
+      "turn_index": 6,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "direct",
+        "behaviors": [
+          "leaning_back",
+          "tapping_pen"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "Karen, can I add some context? We're currently paying $48K for PipelineIQ and another $35K for the Salesforce add-on that does half of what this platform does. If we consolidate, we're only looking at a net increase of about $73K, not $156K.",
+      "turn_index": 7,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "eager",
+        "behaviors": [
+          "referencing_spreadsheet",
+          "turning_to_coo"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Fair point. But we'd need to factor in the switching costs. Contract termination fees, data migration, retraining the team. Have you calculated those?",
+      "turn_index": 8,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "PipelineIQ contract ends in March, so no termination fee there. The Salesforce add-on is month-to-month. Migration is the main cost and I think it's minimal since we're pulling from Salesforce either way.",
+      "turn_index": 9,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Derek's right. We handle the data migration from Salesforce as part of onboarding at no extra cost. We also provide two weeks of hands-on training for your team. Given your Salesforce setup, I'd estimate you're fully migrated and operational in four to five weeks.",
+      "turn_index": 10,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "What about our warehouse management system? We run a custom-built WMS that feeds into our forecasting. That integration is critical.",
+      "turn_index": 11,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "concerned",
+        "behaviors": [
+          "leaning_forward"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "We have a REST API and webhook infrastructure that handles custom integrations. During the trial, did your team look at the API documentation at all?",
+      "turn_index": 12,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "I had one of our engineers poke at it. He said the API is well-documented and he could build the WMS connector in about a week. The webhook setup for real-time inventory updates looked straightforward.",
+      "turn_index": 13,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "One week for the connector. And if something breaks in production? What's the support model?",
+      "turn_index": 14,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "probing",
+        "behaviors": [
+          "eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Growth plan includes priority support with a 4-hour response SLA during business hours. For critical integrations like your WMS, we assign a dedicated solutions engineer during the first 90 days who's available for real-time troubleshooting.",
+      "turn_index": 15,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "4-hour SLA is fine for most things but our logistics operations run 24/7. If the WMS integration goes down at 2 AM, we need someone available.",
+      "turn_index": 16,
+      "paralinguistic": {
+        "pause_before_sec": 0.7,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "firm",
+        "behaviors": [
+          "crossing_arms"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "For 24/7 coverage, we offer a premium support add-on at $18,000 annually. That gets you a 1-hour response SLA around the clock and a dedicated Slack channel with our on-call engineering team.",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "So now we're at $174K. Derek, where does that put us against the budget?",
+      "turn_index": 18,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "calculating",
+        "behaviors": [
+          "looking_at_spreadsheet"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "With the consolidation savings, net new spend is $91K. That's within our discretionary budget if we reallocate from the PipelineIQ line item. I don't think we need board approval for that.",
+      "turn_index": 19,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "referencing_spreadsheet",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Under 100K net new doesn't need board approval. That helps. But I still want to see if there's room on the pricing. You mentioned $156K for the platform. We looked at RevTrack and they quoted $130K for similar functionality.",
+      "turn_index": 20,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "negotiating",
+        "behaviors": [
+          "leaning_back",
+          "watching_reaction"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I know RevTrack. They're solid on the basic pipeline management side. Where they fall short is the predictive forecasting and the real-time deal scoring that Derek's team found so valuable in the trial. Their forecasting module is a separate license at around $40K.",
+      "turn_index": 21,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "informative",
+        "behaviors": [
+          "steady_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "Yeah, the deal scoring was the killer feature for us in the trial. That's what caught the three miscategorized deals. RevTrack doesn't have anything comparable.",
+      "turn_index": 22,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "supportive",
+        "behaviors": [
+          "nodding_emphatically"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "I appreciate that, but $156K is still a lot for a mid-market logistics company. Can you do $140K for the platform if we commit to an annual contract today?",
+      "turn_index": 23,
+      "paralinguistic": {
+        "pause_before_sec": 2.0,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "hesitant",
+        "behaviors": [
+          "minimal_eye_contact",
+          "fidgeting_with_pen"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Karen, I want to make this work. Let me see what I can do. If you commit to a two-year agreement, I can bring the platform to $145K annually. That's with the growth pricing locked in, so even as you scale to 600 employees, the rate stays flat for two years.",
+      "turn_index": 24,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "collaborative",
+        "behaviors": [
+          "thoughtful_pause",
+          "open_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Two-year lock-in makes me nervous. What's the exit clause?",
+      "turn_index": 25,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "cautious",
+        "behaviors": [
+          "leaning_forward",
+          "furrowed_brow"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Standard 90-day termination for cause. If the platform doesn't perform as specified, you can exit with 90 days notice. We also offer a satisfaction guarantee for the first six months. If you're not seeing value by month six, we'll let you out of the contract.",
+      "turn_index": 26,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "Karen, the two-year deal actually makes sense for us. If we're growing to 600 people, locking in the rate now saves us over 50K compared to repricing at that headcount.",
+      "turn_index": 27,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "logical",
+        "behaviors": [
+          "showing_calculations_on_tablet"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "145K for the platform, 18K for premium support. That's $163K total. Net new with consolidation is about $80K. And we're locked at that rate for two years even as we scale.",
+      "turn_index": 28,
+      "paralinguistic": {
+        "pause_before_sec": 1.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "summarizing",
+        "behaviors": [
+          "reviewing_notes",
+          "slow_nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's correct. And the six-month satisfaction guarantee gives you a safety net.",
+      "turn_index": 29,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Derek, you're confident your team can handle the migration and the WMS integration within the timeline?",
+      "turn_index": 30,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "verifying",
+        "behaviors": [
+          "turning_to_colleague"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "Yes. After the trial I already put together a migration plan. We can run both systems in parallel for two weeks to validate. I'm ready to go.",
+      "turn_index": 31,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "direct_eye_contact",
+          "firm_nod"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Alright. The math works, Derek's team is ready, the satisfaction guarantee addresses the risk. Let's do the two-year at $145K plus the support add-on. Can you send us the contract today?",
+      "turn_index": 32,
+      "paralinguistic": {
+        "pause_before_sec": 2.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "decisive",
+        "behaviors": [
+          "uncrossing_arms",
+          "sitting_up_straight",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. I'll have the contract in your inbox by 3 PM. It'll reflect the $145K platform, $18K premium support, two-year term with the satisfaction guarantee. Once signed, we can schedule the kickoff call for next week.",
+      "turn_index": 33,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "energized",
+        "behaviors": [
+          "smile",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_revenue_operations",
+      "text": "Perfect. I'll block time for the kickoff. Looking forward to getting off PipelineIQ.",
+      "turn_index": 34,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "excited",
+        "behaviors": [
+          "smile",
+          "relaxed_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_coo",
+      "text": "Thanks for working with us on the pricing. Send over the contract and we'll get it reviewed and signed this week.",
+      "turn_index": 35,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "handshake_ready",
+          "gathering_materials"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Thank you both. Karen, I appreciate you digging into the details. Derek, thanks for championing this internally. I'm confident you'll see the value quickly once you're fully up and running.",
+      "turn_index": 36,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "grateful",
+        "behaviors": [
+          "direct_eye_contact",
+          "professional_posture"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "transcript_id": "legacy_systems_corp_call1",
+  "extraction_timestamp": "2026-02-07T00:00:00Z",
+  "surface": {
+    "aspects": [
+      {
+        "aspect": "current_system_stability",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "VP Operations emphasizes current system works well, is stable, and team knows it thoroughly",
+        "source_utterance_indices": [
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "aspect": "change_risk",
+        "sentiment": "negative",
+        "intensity": 0.95,
+        "context": "Strong concern about disruption, implementation failure, and operational risk from system change",
+        "source_utterance_indices": [
+          8,
+          12,
+          19,
+          22,
+          24,
+          26,
+          28,
+          48,
+          61,
+          63,
+          65,
+          69,
+          77
+        ]
+      },
+      {
+        "aspect": "pricing",
+        "sentiment": "negative",
+        "intensity": 0.85,
+        "context": "Total cost of $600K+ year one plus $100K annual seen as too high for perceived value",
+        "source_utterance_indices": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "aspect": "implementation_disruption",
+        "sentiment": "negative",
+        "intensity": 0.9,
+        "context": "Concern about 4-6 month timeline distracting operations team from production",
+        "source_utterance_indices": [
+          22,
+          24,
+          28
+        ]
+      },
+      {
+        "aspect": "manual_workarounds",
+        "sentiment": "mixed",
+        "intensity": 0.6,
+        "context": "Digital transformation lead sees as problem, VP Operations sees as functioning solution",
+        "source_utterance_indices": [
+          9,
+          10
+        ]
+      },
+      {
+        "aspect": "competitive_pressure",
+        "sentiment": "mixed",
+        "intensity": 0.5,
+        "context": "Disagreement on whether lost bids related to lead times or pricing",
+        "source_utterance_indices": [
+          5,
+          66,
+          67
+        ]
+      },
+      {
+        "aspect": "system_age",
+        "sentiment": "negative",
+        "intensity": 0.6,
+        "context": "Systems are 15 years old, seen as problematic by digital transformation lead",
+        "source_utterance_indices": [
+          5
+        ]
+      },
+      {
+        "aspect": "integration_complexity",
+        "sentiment": "negative",
+        "intensity": 0.7,
+        "context": "Concern about SAP integration as another point of failure",
+        "source_utterance_indices": [
+          48
+        ]
+      },
+      {
+        "aspect": "team_expertise",
+        "sentiment": "positive",
+        "intensity": 0.85,
+        "context": "Strong confidence in existing team's knowledge and ability to manage current processes",
+        "source_utterance_indices": [
+          8,
+          59
+        ]
+      },
+      {
+        "aspect": "roi_projections",
+        "sentiment": "negative",
+        "intensity": 0.8,
+        "context": "Skepticism about projected savings and benefits, seen as unproven promises",
+        "source_utterance_indices": [
+          34,
+          36
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "name": "current_system_capabilities",
+        "timeline_position": "early",
+        "relevance": 0.9
+      },
+      {
+        "name": "pricing_and_investment",
+        "timeline_position": "early",
+        "relevance": 0.95
+      },
+      {
+        "name": "implementation_timeline",
+        "timeline_position": "mid",
+        "relevance": 0.8
+      },
+      {
+        "name": "risk_mitigation",
+        "timeline_position": "mid",
+        "relevance": 0.9
+      },
+      {
+        "name": "demo_requirements",
+        "timeline_position": "mid",
+        "relevance": 0.7
+      },
+      {
+        "name": "rush_order_handling",
+        "timeline_position": "late",
+        "relevance": 0.8
+      },
+      {
+        "name": "stakeholder_alignment",
+        "timeline_position": "late",
+        "relevance": 0.95
+      },
+      {
+        "name": "deal_closure",
+        "timeline_position": "late",
+        "relevance": 1.0
+      }
+    ],
+    "entities": [
+      {
+        "name": "Thomas Wright",
+        "entity_type": "person",
+        "role": "VP Operations",
+        "mention_count": 8
+      },
+      {
+        "name": "Lisa Chang",
+        "entity_type": "person",
+        "role": "Digital Transformation Lead",
+        "mention_count": 7
+      },
+      {
+        "name": "Mark Johnson",
+        "entity_type": "person",
+        "role": "CFO",
+        "mention_count": 4
+      },
+      {
+        "name": "Sarah",
+        "entity_type": "person",
+        "role": "Solutions Engineer",
+        "mention_count": 2
+      },
+      {
+        "name": "CompetitorZ",
+        "entity_type": "competitor",
+        "role": "Alternative vendor considered",
+        "mention_count": 2
+      },
+      {
+        "name": "SAP",
+        "entity_type": "product",
+        "role": "Current ERP system",
+        "mention_count": 2
+      },
+      {
+        "name": "Legacy Systems Corp",
+        "entity_type": "company",
+        "role": "Prospect company",
+        "mention_count": 1
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "fix what isn't broken",
+        "relevance": 0.95,
+        "context": "Core objection theme repeated multiple times by VP Operations"
+      },
+      {
+        "phrase": "solution looking for a problem",
+        "relevance": 0.9,
+        "context": "VP Operations' fundamental rejection of need"
+      },
+      {
+        "phrase": "I've been in manufacturing for 28 years",
+        "relevance": 0.85,
+        "context": "Experience-based credibility claim supporting resistance"
+      },
+      {
+        "phrase": "changing systems is where things go wrong",
+        "relevance": 0.9,
+        "context": "Risk aversion based on past experience"
+      },
+      {
+        "phrase": "projections, not guarantees",
+        "relevance": 0.8,
+        "context": "Skepticism about ROI claims"
+      },
+      {
+        "phrase": "every operation is different",
+        "relevance": 0.75,
+        "context": "Dismissal of reference customer value"
+      },
+      {
+        "phrase": "augmenting their expertise, not replacing it",
+        "relevance": 0.7,
+        "context": "Digital transformation lead's positioning of solution"
+      },
+      {
+        "phrase": "half a million dollars",
+        "relevance": 0.85,
+        "context": "Price anchor that reinforces negative perception"
+      },
+      {
+        "phrase": "I clearly don't have the authority to push this through",
+        "relevance": 0.95,
+        "context": "Explicit acknowledgment of deal-killing dynamic"
+      },
+      {
+        "phrase": "protect my operations",
+        "relevance": 0.85,
+        "context": "VP Operations' core responsibility driving resistance"
+      }
+    ]
+  },
+  "behavioral": {
+    "objection_triples": [
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "I'm not entirely convinced we have a problem that needs solving. Our current system works. We know it inside and out.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            6
+          ]
+        },
+        "resolution": {
+          "type": "other",
+          "specific_language": "That's fair, Thomas. Can you help me understand what's working well with your current setup?",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            7
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Discovery of deeper resistance"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "When you've been in manufacturing as long as I have, you learn that changing systems is where things go wrong.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            8
+          ]
+        },
+        "resolution": {
+          "type": "other",
+          "specific_language": "I appreciate both perspectives. Thomas, what would need to be true for you to consider a change worth the effort?",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            11
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Further entrenched resistance"
+        },
+        "confidence": 0.9
+      },
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "Honestly? I'd need to see a compelling reason why we can't just keep doing what we're doing. We've been profitable, we meet our production targets. Why introduce risk?",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            12
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Shift to pricing discussion"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "pricing",
+          "specific_language": "So we're talking half a million, potentially more.",
+          "speaker_role": "CFO",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            17
+          ]
+        },
+        "resolution": {
+          "type": "roi_argument",
+          "specific_language": "The business case typically focuses on efficiency gains, reduced errors, and better resource utilization.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            32
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Price reinforced as barrier"
+        },
+        "confidence": 0.85
+      },
+      {
+        "objection": {
+          "type": "pricing",
+          "specific_language": "Half a million dollars to replace something that isn't broken. I'm sorry, but I'm just not seeing it.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            19
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Attempt to move to demo"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "implementation",
+          "specific_language": "Four to six months where my operations team is distracted from actually running production. That's a lot of disruption.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            22
+          ]
+        },
+        "resolution": {
+          "type": "risk_mitigation",
+          "specific_language": "I understand the concern about disruption. Most of the heavy lifting is on our implementation team. Your folks would be involved primarily in requirements gathering, testing, and training.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            23
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Further disruption concerns"
+        },
+        "confidence": 0.9
+      },
+      {
+        "objection": {
+          "type": "implementation",
+          "specific_language": "That's still time away from their real jobs. And what happens when something goes wrong during the transition? We have customer commitments.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            24
+          ]
+        },
+        "resolution": {
+          "type": "phased_rollout",
+          "specific_language": "Thomas, I'm hearing that risk mitigation is really important to you. What if we could structure a phased rollout with a pilot line first?",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            27
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Pilot rejected"
+        },
+        "confidence": 0.85
+      },
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "A pilot still requires investment, still requires my team's time, and for what? To prove we need to fix something that's not broken?",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            28
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Move to annual cost discussion"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "other",
+          "specific_language": "Those are projections, Lisa. Not guarantees. I've seen plenty of software promises that didn't pan out.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            34
+          ]
+        },
+        "resolution": {
+          "type": "social_proof",
+          "specific_language": "That's a valid concern. We do have case studies from similar manufacturing environments. Would it be helpful to connect you with a reference customer?",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            35
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Reference value dismissed"
+        },
+        "confidence": 0.85
+      },
+      {
+        "objection": {
+          "type": "other",
+          "specific_language": "Maybe. But every operation is different. What worked for them doesn't mean it'll work for us.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            36
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": true,
+          "next_action": "Demo scheduled despite resistance"
+        },
+        "confidence": 0.8
+      },
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "Another integration point, another thing that can break. This is exactly what concerns me.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            48
+          ]
+        },
+        "resolution": {
+          "type": "technical_demo",
+          "specific_language": "I hear you, Thomas. We'll address the integration reliability and our testing process in the demo. Any other concerns I should make sure we cover?",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            49
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Demo scheduled with skepticism"
+        },
+        "confidence": 0.85
+      },
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "I don't see why we need to spend half a million dollars to make things marginally more convenient.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            61
+          ]
+        },
+        "resolution": {
+          "type": "roi_argument",
+          "specific_language": "Thomas, what if we look at this from a scalability perspective? As you grow or take on more complex orders, having this foundation in place could be valuable.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            62
+          ]
+        },
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Growth argument rejected"
+        },
+        "confidence": 0.9
+      },
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "We're not planning massive growth. We're a stable business. We don't need to scale dramatically. And frankly, if we do grow, we'll hire another scheduler. That's a lot cheaper than this system.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            63
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Analytical evaluator attempts data argument"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "Lisa, I appreciate what you're trying to do, but this feels like a solution looking for a problem. We're profitable. Our customers are happy. Our system works. Why would we introduce all this risk and complexity?",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            65
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Internal stakeholder conflict"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "need",
+          "specific_language": "Honestly? No. I've been in manufacturing for 28 years. I've seen too many software implementations disrupt operations, go over budget, and under-deliver. Our current approach is working. I don't want to fix what isn't broken.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            69
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Final rejection signaled"
+        },
+        "confidence": 1.0
+      },
+      {
+        "objection": {
+          "type": "authority",
+          "specific_language": "And we're evaluating it. My evaluation is that it's not worth the investment or the risk. Lisa, I know you're passionate about this, but I can't support moving forward.",
+          "speaker_role": "VP Operations",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            71
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": false,
+          "deal_progressed": false,
+          "next_action": "Deal explicitly killed"
+        },
+        "confidence": 1.0
+      }
+    ],
+    "buying_intent_markers": [
+      {
+        "type": "timeline_question",
+        "evidence": "Can you walk us through what the implementation timeline looks like?",
+        "confidence": 0.7,
+        "source_utterance_indices": [
+          20
+        ]
+      },
+      {
+        "type": "stakeholder_introduction",
+        "evidence": "Mark Johnson, CFO. I'm here.",
+        "confidence": 0.6,
+        "source_utterance_indices": [
+          3
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "Show me how it handles schedule changes when we get a rush order. That's where things get complicated in the real world.",
+        "confidence": 0.5,
+        "source_utterance_indices": [
+          43
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "And I'd like to see the reporting capabilities and how it integrates with our ERP system.",
+        "confidence": 0.6,
+        "source_utterance_indices": [
+          44
+        ]
+      },
+      {
+        "type": "budget_confirmation",
+        "evidence": "What kind of investment are we talking about here?",
+        "confidence": 0.7,
+        "source_utterance_indices": [
+          13
+        ]
+      },
+      {
+        "type": "budget_confirmation",
+        "evidence": "And implementation runs how much?",
+        "confidence": 0.7,
+        "source_utterance_indices": [
+          15
+        ]
+      },
+      {
+        "type": "budget_confirmation",
+        "evidence": "What's the annual recurring cost after the initial investment?",
+        "confidence": 0.7,
+        "source_utterance_indices": [
+          29
+        ]
+      },
+      {
+        "type": "next_steps_request",
+        "evidence": "I think a demo would be really valuable. Can we schedule that?",
+        "confidence": 0.75,
+        "source_utterance_indices": [
+          37
+        ]
+      }
+    ],
+    "competitive_mentions": [
+      {
+        "competitor": "CompetitorZ",
+        "context": "Mentioned as alternative vendor with longer, more customization-heavy implementation process",
+        "sentiment": "negative",
+        "comparison_type": "implementation_timeline",
+        "source_utterance_indices": [
+          20,
+          21
+        ]
+      }
+    ],
+    "engagement_trajectory": [
+      {
+        "phase": "early",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "medium",
+        "notes": "Initial introductions followed by strong resistance from VP Operations, active engagement from Digital Transformation Lead, financial questions from CFO"
+      },
+      {
+        "phase": "mid",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "medium",
+        "notes": "Continued objections from VP Operations across multiple dimensions (risk, disruption, cost), demo scheduling attempted, internal stakeholder tension emerging"
+      },
+      {
+        "phase": "late",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "low",
+        "notes": "Demo conducted but VP Operations remains deeply skeptical, explicit rejection articulated, Digital Transformation Lead acknowledges lack of authority, deal dies"
+      }
+    ]
+  },
+  "psychographic": {
+    "mental_model": {
+      "primary": "risk_mitigation",
+      "secondary": "efficiency",
+      "evidence": [
+        "When you've been in manufacturing as long as I have, you learn that changing systems is where things go wrong",
+        "I've seen too many software implementations disrupt operations, go over budget, and under-deliver",
+        "I have to protect my operations and make sure we're spending money on things that truly move the needle",
+        "We have customer commitments",
+        "Our current approach is working. I don't want to fix what isn't broken"
+      ],
+      "confidence": 0.95,
+      "reasoning": "The VP Operations' dominant mental model is risk mitigation - he views the world through a lens of protecting stable operations and avoiding disruption. His 28 years of experience have taught him that system changes are high-risk events, and his primary responsibility is operational stability. The Digital Transformation Lead operates from an efficiency/growth enablement model, creating fundamental misalignment. The CFO shows concern about investment size but defers to operations leadership. The reluctant adopter persona is strongly evident in the VP Operations' repeated emphasis on stability, functioning current state, and risk of change over potential benefits."
+    },
+    "persona_indicators": [
+      {
+        "archetype": "reluctant_adopter",
+        "confidence": 0.98,
+        "evidence": [
+          "I'm not entirely convinced we have a problem that needs solving",
+          "Our current system works. We know it inside and out",
+          "Workarounds that function perfectly fine. My team hasn't complained",
+          "Why would we introduce all this risk and complexity?",
+          "this feels like a solution looking for a problem",
+          "I don't want to fix what isn't broken",
+          "I can't support moving forward"
+        ],
+        "reasoning": "Thomas Wright (VP Operations) exhibits classic reluctant adopter behavior: satisfaction with status quo, risk aversion, skepticism of change benefits, protection of existing processes and team expertise, experience-based resistance, and ultimately blocking the deal despite champion advocacy"
+      },
+      {
+        "archetype": "analytical_evaluator",
+        "confidence": 0.85,
+        "evidence": [
+          "We're running on systems that are fifteen years old in some cases",
+          "I think there's real opportunity here to improve our throughput",
+          "The manual workarounds your team does every day, the spreadsheets, the lack of real-time visibility. Those are real issues",
+          "we've calculated could save us significant overtime costs and reduce our schedule change cycle time by at least 40 percent",
+          "the data analytics alone would give us insights we don't have today",
+          "I'd like to see the reporting capabilities and how it integrates with our ERP system"
+        ],
+        "reasoning": "Lisa Chang (Digital Transformation Lead) demonstrates analytical evaluator traits: data-driven reasoning, quantified benefits, systematic problem identification, interest in technical details and integration, forward-looking competitive analysis, but ultimately lacks authority to overcome reluctant adopter resistance"
+      },
+      {
+        "archetype": "reluctant_adopter",
+        "confidence": 0.75,
+        "evidence": [
+          "What kind of investment are we talking about here?",
+          "And implementation runs how much?",
+          "So we're talking half a million, potentially more",
+          "So year one is over 600 thousand all-in, then 100K ongoing",
+          "I'll try to attend, depending on board prep schedule"
+        ],
+        "reasoning": "Mark Johnson (CFO) shows reluctant adopter tendencies through immediate focus on total cost, lack of strong advocacy for the solution, and minimal engagement (low attendance commitment). His questions focus on financial exposure rather than value creation, aligning with cost-conscious resistance"
+      }
+    ],
+    "language_fingerprint": {
+      "distinctive_vocabulary": [
+        "fix what isn't broken",
+        "solution looking for a problem",
+        "protect my operations",
+        "real world",
+        "nuances",
+        "stable business",
+        "customer commitments",
+        "move the needle",
+        "workarounds",
+        "marginal",
+        "disruption"
+      ],
+      "metaphors": [
+        "changing systems is where things go wrong",
+        "introduce risk",
+        "another thing that can break",
+        "distracted from their real jobs"
+      ],
+      "framing_patterns": [
+        "Question-based resistance: 'Why would we...?', 'For what?', 'Why introduce risk?'",
+        "Experience credibility: 'I've been in manufacturing for 28 years', 'as long as I have'",
+        "Status quo validation: 'works', 'stable', 'profitable', 'fine', 'functioning perfectly'",
+        "Risk emphasis: 'disrupt', 'go wrong', 'can break', 'complexity'",
+        "Quantitative anchoring (CFO): 'half a million', '600 thousand all-in'",
+        "Data-driven positioning (Digital Transformation Lead): 'calculated', '40 percent', 'insights', 'analytics'"
+      ]
+    }
+  },
+  "multimodal": null,
+  "overall_confidence": 0.9,
+  "notes": [
+    "ground truth annotation — human review recommended"
+  ]
+}

@@ -1,0 +1,66 @@
+You are extracting Layer 2 (Behavioral) signals from a sales call transcript.
+These require understanding conversation dynamics — sequences, turn-taking, and evolution.
+
+TRANSCRIPT:
+{transcript}
+
+Extract these signal types:
+
+1. OBJECTION-RESOLUTION-OUTCOME TRIPLES: When a prospect raises a concern, extract:
+   - Objection: type (pricing/implementation/competition/timeline/risk/authority/need/other),
+     the specific language used, speaker role, conversation stage (early/mid/late), source utterances
+   - Resolution: how the rep responded — type (roi_argument/social_proof/discount/phased_rollout/
+     technical_demo/risk_mitigation/other), specific language, source utterances. Set to null if
+     the objection was not addressed.
+   - Outcome: was it resolved? did the deal progress? what was the next action?
+
+2. BUYING INTENT MARKERS: Linguistic cues that correlate with deal progression:
+   - timeline_question: "When can we start?", "What's the implementation timeline?"
+   - stakeholder_introduction: "Let me bring in our CTO"
+   - if_to_when_shift: prospect shifts from hypothetical to concrete language
+   - implementation_detail: asking about specifics of how it works in practice
+   - budget_confirmation: discussing budget availability
+   - next_steps_request: "What are next steps?"
+   Include the specific evidence and confidence score.
+
+3. COMPETITIVE MENTIONS: Any reference to competitors — who, in what context,
+   with what sentiment, and how they're positioned (alternative/incumbent/dismissed).
+
+4. ENGAGEMENT TRAJECTORY: How does the prospect's participation change across
+   early/mid/late phases? Rate participation level, question depth, and energy.
+
+Return ONLY valid JSON:
+{{
+  "objection_triples": [
+    {{
+      "objection": {{
+        "type": "string", "specific_language": "direct quote",
+        "speaker_role": "string", "conversation_stage": "early|mid|late",
+        "source_utterance_indices": [int]
+      }},
+      "resolution": {{
+        "type": "string", "specific_language": "direct quote",
+        "speaker_role": "rep", "source_utterance_indices": [int]
+      }} or null,
+      "outcome": {{
+        "resolved": bool, "deal_progressed": bool, "next_action": "string or null"
+      }},
+      "confidence": 0.0-1.0
+    }}
+  ],
+  "buying_intent_markers": [
+    {{"type": "string", "evidence": "specific language",
+      "confidence": 0.0-1.0, "source_utterance_indices": [int]}}
+  ],
+  "competitive_mentions": [
+    {{"competitor": "string", "context": "string",
+      "sentiment": "positive|negative|neutral|mixed",
+      "comparison_type": "string or null", "source_utterance_indices": [int]}}
+  ],
+  "engagement_trajectory": [
+    {{"phase": "early|mid|late",
+      "participation_level": "low|moderate|high",
+      "question_depth": "surface|moderate|deep",
+      "energy": "low|medium|high", "notes": "string or null"}}
+  ]
+}}

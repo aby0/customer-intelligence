@@ -1,0 +1,384 @@
+{
+  "transcript_id": "growthco_call1",
+  "extraction_timestamp": "2026-02-07T00:00:00Z",
+  "surface": {
+    "aspects": [
+      {
+        "aspect": "conversion_rate_performance",
+        "sentiment": "negative",
+        "intensity": 0.8,
+        "context": "Current 12% demo-to-close conversion rate needs dramatic improvement",
+        "source_utterance_indices": [
+          3,
+          7,
+          9
+        ]
+      },
+      {
+        "aspect": "sales_cycle_length",
+        "sentiment": "negative",
+        "intensity": 0.7,
+        "context": "47-day sales cycle needs improvement",
+        "source_utterance_indices": [
+          3
+        ]
+      },
+      {
+        "aspect": "funding_situation",
+        "sentiment": "positive",
+        "intensity": 0.6,
+        "context": "Just closed Series A",
+        "source_utterance_indices": [
+          0,
+          1
+        ]
+      },
+      {
+        "aspect": "runway_pressure",
+        "sentiment": "negative",
+        "intensity": 0.9,
+        "context": "Nine months of runway to prove model at scale",
+        "source_utterance_indices": [
+          5
+        ]
+      },
+      {
+        "aspect": "manual_processes",
+        "sentiment": "negative",
+        "intensity": 0.8,
+        "context": "Sales team drowning in manual follow-up, no systematic nurturing",
+        "source_utterance_indices": [
+          7
+        ]
+      },
+      {
+        "aspect": "deal_prioritization",
+        "sentiment": "negative",
+        "intensity": 0.85,
+        "context": "Cannot effectively prioritize deals, leaving money on the table",
+        "source_utterance_indices": [
+          9
+        ]
+      },
+      {
+        "aspect": "implementation_timeline",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "Three-week implementation is acceptable",
+        "source_utterance_indices": [
+          14,
+          15
+        ]
+      },
+      {
+        "aspect": "roi_potential",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "35% conversion lift would mean extra $2M ARR",
+        "source_utterance_indices": [
+          11
+        ]
+      },
+      {
+        "aspect": "decision_readiness",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "Ready to move quickly if numbers make sense",
+        "source_utterance_indices": [
+          19
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "name": "growth_targets",
+        "timeline_position": "early",
+        "relevance": 0.95
+      },
+      {
+        "name": "conversion_challenges",
+        "timeline_position": "early",
+        "relevance": 0.9
+      },
+      {
+        "name": "funding_pressure",
+        "timeline_position": "early",
+        "relevance": 0.85
+      },
+      {
+        "name": "pipeline_management",
+        "timeline_position": "mid",
+        "relevance": 0.8
+      },
+      {
+        "name": "roi_calculation",
+        "timeline_position": "mid",
+        "relevance": 0.85
+      },
+      {
+        "name": "implementation_timeline",
+        "timeline_position": "late",
+        "relevance": 0.9
+      },
+      {
+        "name": "next_steps",
+        "timeline_position": "late",
+        "relevance": 0.95
+      }
+    ],
+    "entities": [
+      {
+        "name": "Maria Rodriguez",
+        "entity_type": "person",
+        "role": "VP Growth",
+        "mention_count": 2
+      },
+      {
+        "name": "GrowthCo",
+        "entity_type": "company",
+        "role": "prospect company",
+        "mention_count": 3
+      },
+      {
+        "name": "Series A",
+        "entity_type": "product",
+        "role": "funding round",
+        "mention_count": 1
+      },
+      {
+        "name": "Series B",
+        "entity_type": "product",
+        "role": "future funding round",
+        "mention_count": 2
+      },
+      {
+        "name": "CEO",
+        "entity_type": "person",
+        "role": "executive stakeholder",
+        "mention_count": 1
+      },
+      {
+        "name": "CFO",
+        "entity_type": "person",
+        "role": "executive stakeholder",
+        "mention_count": 1
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "deliver on all the promises we made to investors",
+        "relevance": 0.85,
+        "context": "Core pressure driving urgency"
+      },
+      {
+        "phrase": "3x growth in our enterprise segment",
+        "relevance": 0.9,
+        "context": "Specific growth target"
+      },
+      {
+        "phrase": "miss our Series B milestones",
+        "relevance": 0.95,
+        "context": "Critical consequence if targets not met"
+      },
+      {
+        "phrase": "nine months of runway",
+        "relevance": 0.9,
+        "context": "Timeline constraint"
+      },
+      {
+        "phrase": "leaving money on the table",
+        "relevance": 0.85,
+        "context": "Current inefficiency cost"
+      },
+      {
+        "phrase": "hot opportunities go cold",
+        "relevance": 0.8,
+        "context": "Pipeline management failure"
+      },
+      {
+        "phrase": "extra 2 million in ARR",
+        "relevance": 0.95,
+        "context": "Quantified value proposition"
+      },
+      {
+        "phrase": "don't have the luxury of a six-month implementation",
+        "relevance": 0.85,
+        "context": "Timeline objection"
+      },
+      {
+        "phrase": "We don't have time to waste",
+        "relevance": 0.9,
+        "context": "Urgency and buying intent"
+      }
+    ]
+  },
+  "behavioral": {
+    "objection_triples": [
+      {
+        "objection": {
+          "type": "timeline",
+          "specific_language": "The question is timing. How fast can you get us up and running? We don't have the luxury of a six-month implementation.",
+          "speaker_role": "VP Growth",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            13
+          ]
+        },
+        "resolution": {
+          "type": "phased_rollout",
+          "specific_language": "For a team your size, we're typically live within three weeks. First week is integration with your CRM and getting the data flowing. Week two is configuring the models and playbooks. Week three is training your team. You'd start seeing insights basically immediately after go-live.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            14
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect accepted timeline and moved to proposal stage"
+        },
+        "confidence": 0.95
+      }
+    ],
+    "buying_intent_markers": [
+      {
+        "type": "timeline_question",
+        "evidence": "How fast can you get us up and running?",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          13
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "What do you need from us to make that happen?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          15
+        ]
+      },
+      {
+        "type": "next_steps_request",
+        "evidence": "I want to see a proposal. Can you show me what success looks like in terms of actual ROI?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          17
+        ]
+      },
+      {
+        "type": "stakeholder_introduction",
+        "evidence": "I need to take this to our CEO and CFO next week.",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          17
+        ]
+      },
+      {
+        "type": "if_to_when_shift",
+        "evidence": "if the numbers make sense, I'm ready to move on this. We don't have time to waste.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          19
+        ]
+      },
+      {
+        "type": "timeline_question",
+        "evidence": "Would Tuesday work to review that together?",
+        "confidence": 0.85,
+        "source_utterance_indices": [
+          18
+        ]
+      },
+      {
+        "type": "other",
+        "evidence": "Three weeks I can work with. We're making decisions fast right now.",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          15
+        ]
+      }
+    ],
+    "competitive_mentions": [],
+    "engagement_trajectory": [
+      {
+        "phase": "early",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Immediately shared specific pain points, metrics, and urgency drivers"
+      },
+      {
+        "phase": "mid",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Actively problem-solving, quantifying impact, showing strong interest"
+      },
+      {
+        "phase": "late",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Requesting proposal, introducing stakeholders, setting concrete next steps, expressing readiness to move"
+      }
+    ]
+  },
+  "psychographic": {
+    "mental_model": {
+      "primary": "growth_enablement",
+      "secondary": "risk_mitigation",
+      "evidence": [
+        "We need to scale our customer acquisition pretty aggressively",
+        "We're targeting 3x growth in our enterprise segment",
+        "We'll miss our Series B milestones, and that puts everything at risk",
+        "That would put us ahead of our targets, not behind them"
+      ],
+      "confidence": 0.95,
+      "reasoning": "Maria's primary driver is achieving aggressive growth targets (3x enterprise growth, $2M additional ARR) to meet investor promises and secure Series B funding. The growth enablement frame dominates the conversation. Risk mitigation is secondary but significant - she's aware that missing milestones 'puts everything at risk' with only 9 months of runway. However, she frames the solution in terms of growth opportunity ('ahead of our targets') rather than avoiding failure, indicating growth_enablement is the primary mental model."
+    },
+    "persona_indicators": [
+      {
+        "archetype": "executive_champion",
+        "confidence": 0.95,
+        "evidence": [
+          "I'm interested. The question is timing.",
+          "We're making decisions fast right now",
+          "if the numbers make sense, I'm ready to move on this",
+          "I need to take this to our CEO and CFO next week",
+          "We don't have time to waste"
+        ],
+        "reasoning": "Maria exhibits classic executive_champion behaviors: she has clear authority to drive decisions, is taking ownership of the evaluation process, is ready to champion the solution to other executives (CEO/CFO), demonstrates urgency and decision-making speed, and is focused on business outcomes (ROI, growth targets) rather than technical details. She's actively pulling the deal forward rather than being passive or resistant."
+      }
+    ],
+    "language_fingerprint": {
+      "distinctive_vocabulary": [
+        "whirlwind",
+        "aggressively",
+        "dramatically",
+        "drowning",
+        "leaving money on the table",
+        "massive",
+        "leverage",
+        "luxury"
+      ],
+      "metaphors": [
+        "drowning in manual follow-up",
+        "hot opportunities go cold",
+        "leaving money on the table",
+        "puts everything at risk"
+      ],
+      "framing_patterns": [
+        "Direct acknowledgment of pressure and consequences",
+        "Quantification of current state and desired outcomes",
+        "Binary framing: success vs. existential risk",
+        "Time-bounded urgency language",
+        "Action-oriented language: 'ready to move', 'making decisions fast'"
+      ]
+    }
+  },
+  "multimodal": null,
+  "overall_confidence": 0.9,
+  "notes": [
+    "ground truth annotation — human review recommended"
+  ]
+}

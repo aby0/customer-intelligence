@@ -1,0 +1,196 @@
+{
+  "account": {
+    "company_name": "CloudFirst Analytics",
+    "company_size": "smb",
+    "industry": "Data Analytics",
+    "deal_stage": "discovery",
+    "deal_outcome": "won",
+    "stakeholders": [
+      {
+        "name": "Nina Patel",
+        "role": "Head of Data",
+        "persona_type": "executive_champion"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "cloudfirst_analytics_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 22,
+    "participants": [
+      "rep",
+      "prospect_head_of_data"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Hi Nina, thanks for hopping on. I saw you downloaded our attribution benchmarking report last week. What caught your eye?",
+      "turn_index": 0,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "Yeah, the section on multi-touch attribution gaps was exactly what we're wrestling with. We're a 60-person shop doing analytics consulting, and our own marketing attribution is embarrassingly bad.",
+      "turn_index": 1,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Ha, the cobbler's children have no shoes. That's actually more common than you'd think with analytics firms. Tell me more about what you're seeing.",
+      "turn_index": 2,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "We're running campaigns across LinkedIn, Google, our podcast sponsorships, and a bunch of partner co-marketing stuff. Right now we're stitching everything together in spreadsheets. My analyst spends probably two days a month just building the attribution report, and honestly, I don't trust the numbers.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Two days a month on manual attribution. And you said you don't trust the output. What breaks down specifically?",
+      "turn_index": 4,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "The big one is we can't track the podcast-to-website-to-demo-request journey. People hear us on a podcast, Google us a week later, and we attribute it all to organic search. We know the podcasts are working because prospects mention them on calls, but the data doesn't show it.",
+      "turn_index": 5,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's a classic dark funnel problem. The offline-to-online handoff is where most attribution models fall apart. How much are you spending annually on those podcast sponsorships?",
+      "turn_index": 6,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "About 180K a year. And our CEO keeps asking me whether we should double down or kill them. I can't give her a straight answer with the data I have.",
+      "turn_index": 7,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "So you have a 180K spending decision that's essentially flying blind. That's actually a perfect use case for us. Our self-reported attribution module captures that exact journey. When someone books a demo, they get a 'how did you hear about us' field that ties back into the attribution model alongside the digital touchpoints.",
+      "turn_index": 8,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "We've tried the how-did-you-hear-about-us thing manually. The data quality was terrible. People just pick the first option.",
+      "turn_index": 9,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Totally. The trick is in how you present it and how you weight it. We use a free-text field instead of a dropdown, then use NLP to categorize and cross-reference with digital touchpoint data. Clients typically see 70 to 80% match rates between self-reported and digital signals.",
+      "turn_index": 10,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "That's clever. Okay, what does something like this cost for a company our size? We're not a big budget operation.",
+      "turn_index": 11,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "For your team size and channel mix, you'd be looking at our Starter tier. That's 42K annually, which includes the core attribution engine, the self-reported module, and integrations with your ad platforms and CRM.",
+      "turn_index": 12,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "42K. That's not nothing, but if it saves my analyst two days a month and helps us make a smarter call on 180K in podcast spend, the math works pretty quickly.",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Exactly. And that analyst time is probably the smaller piece. The real value is having confidence in your channel allocation decisions. If podcasts are actually driving 30% of your pipeline but your current data says 5%, that changes your entire strategy.",
+      "turn_index": 14,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "Right. Okay, what does implementation look like? We run HubSpot and Google Ads primarily.",
+      "turn_index": 15,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "HubSpot integration is native, takes about two days to set up. Google Ads is also plug-and-play. For your LinkedIn campaigns we'd use a UTM-based connector. Most SMB clients are up and running in three to four weeks.",
+      "turn_index": 16,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "Three to four weeks is fast. Do we need engineering resources or can my marketing ops person handle it?",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Marketing ops can handle the whole thing. The HubSpot integration is a one-click OAuth connection. We handle the data pipeline setup on our end.",
+      "turn_index": 18,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "That's really important to us. We don't have spare engineering cycles. What about data we've already collected? Can we do any historical attribution or is it forward-looking only?",
+      "turn_index": 19,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "We can ingest up to 12 months of historical data from HubSpot and your ad platforms. So you'd actually get some retroactive attribution models to validate against what you're seeing anecdotally with podcasts.",
+      "turn_index": 20,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "Oh that's great. That would let us test the accuracy before we commit to changing our budget allocation. I'm pretty sold on this honestly. What would next steps look like if we wanted to move forward?",
+      "turn_index": 21,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I can send over a proposal today. It would be a standard annual agreement at 42K with quarterly billing. If you sign this week, we could kick off implementation next Monday and have you live by end of March.",
+      "turn_index": 22,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "I need to loop in our CEO, Alisha, but I'm going to recommend we do this. Can you include some case studies from other analytics or consulting firms? That'll help me make the case internally.",
+      "turn_index": 23,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. I have two great case studies from similar-sized consulting firms. I'll package those with the proposal. Would it be helpful to have a short call with Alisha as well, or do you think you can handle it internally?",
+      "turn_index": 24,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "I think I can handle it. She trusts my judgment on data tooling. If she has questions I'll pull you in, but honestly this should be straightforward. Send me that proposal and I'll aim to have an answer by Friday.",
+      "turn_index": 25,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Sounds great, Nina. I'll have everything in your inbox by end of day. Looking forward to getting you off those spreadsheets.",
+      "turn_index": 26,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_head_of_data",
+      "text": "Ha, you and me both. Thanks for the walkthrough, this was really helpful.",
+      "turn_index": 27,
+      "paralinguistic": null
+    }
+  ]
+}

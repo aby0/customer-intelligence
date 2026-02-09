@@ -1,0 +1,525 @@
+{
+  "account": {
+    "company_name": "TechCorp",
+    "company_size": "mid_market",
+    "industry": "B2B SaaS",
+    "deal_stage": "evaluation",
+    "deal_outcome": "won",
+    "stakeholders": [
+      {
+        "name": "David Chen",
+        "role": "CFO",
+        "persona_type": "analytical_evaluator"
+      },
+      {
+        "name": "Sarah Kim",
+        "role": "VP Marketing",
+        "persona_type": "executive_champion"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "techcorp_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 35,
+    "participants": [
+      "rep",
+      "prospect_cfo",
+      "prospect_vp_marketing"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Good morning David, Sarah! Thanks for making the time today. I know we're here to dive into the numbers and implementation details you both wanted to discuss.",
+      "turn_index": 0,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "Absolutely. David's been reviewing the proposal and I think this is a great opportunity for us to align on how this solves our lead attribution problem.",
+      "turn_index": 1,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "note_taking",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Thanks Sarah. I've gone through the materials pretty thoroughly. Before we go further, I need to understand the actual ROI we're looking at here. Can you walk me through your assumptions?",
+      "turn_index": 2,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "reviewing_documents",
+          "pen_in_hand"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Of course. Based on your current marketing spend of about 2.3 million annually and your stated 15% waste on unattributed channels, we're looking at roughly 345K in potential savings in year one alone.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "That number assumes we can actually redirect that spend effectively. What's the confidence interval on that 15% figure?",
+      "turn_index": 4,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "challenging",
+        "behaviors": [
+          "crossed_arms",
+          "eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Great question. That's based on your attribution gap analysis from last quarter that Sarah shared with us. But conservatively, even at 10%, you're looking at 230K in year one.",
+      "turn_index": 5,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "And David, that doesn't even account for the velocity improvements. We've been losing deals because we can't prove marketing's impact to the sales team.",
+      "turn_index": 6,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "persuasive",
+        "behaviors": [
+          "lean_forward",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "I understand that pain point. Let me ask about the pricing structure itself. You're proposing 185K annually for our company size. How does that compare to what similar mid-market companies are paying?",
+      "turn_index": 7,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "probing",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "For companies in the 200 to 500 employee range with similar marketing budgets, this is right in line. We're typically seeing 175 to 210K depending on the module configuration.",
+      "turn_index": 8,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Okay. And we looked at CompetitorX as well. They came in at 140K for what seemed like comparable functionality.",
+      "turn_index": 9,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "testing",
+        "behaviors": [
+          "watching_reaction"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate you sharing that. CompetitorX does have a lower entry point, but there are some meaningful differences. Their multi-touch attribution requires a separate module that runs another 60K, and their customer success model is largely self-service.",
+      "turn_index": 10,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "measured",
+        "behaviors": [
+          "maintaining_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "I actually spoke with their reference at DataFlow Inc. They mentioned it took them almost nine months to get fully implemented and they had to hire a consultant.",
+      "turn_index": 11,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "That's helpful context. So on implementation, what's the realistic timeline here? We're a lean team and I'm concerned about the resource drain.",
+      "turn_index": 12,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "concerned",
+        "behaviors": [
+          "leaning_back"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "This is actually one of our differentiators. We typically see full implementation in 12 to 16 weeks with a phased approach. Can I walk you through what that would look like for TechCorp?",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Please do.",
+      "turn_index": 14,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Phase one is weeks one through four. We'd focus exclusively on your paid channels - Google, LinkedIn, your display campaigns. This gets you quick wins and data flowing without overwhelming your team. Sarah's team would need maybe 5 hours per week during this phase.",
+      "turn_index": 15,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "structured",
+        "behaviors": [
+          "gesturing",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "That's totally manageable. My concern was if we had to do everything at once.",
+      "turn_index": 16,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Exactly. Phase two, weeks five through ten, we layer in your organic channels and CRM integration. Then phase three is the advanced attribution models and reporting dashboards. Each phase delivers value independently.",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "And you have dedicated implementation support throughout this? What happens if we hit technical roadblocks?",
+      "turn_index": 18,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "skeptical",
+        "behaviors": [
+          "pen_tapping"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "You'd have a dedicated implementation manager and a technical solutions engineer assigned to your account. That's included in the pricing. They're on call for any blockers and we have weekly check-ins built into the timeline.",
+      "turn_index": 19,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "reassuring",
+        "behaviors": [
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "David, I think this addresses the resource concern. We can start small and scale as we learn. And honestly, the cost of not fixing our attribution problem is way higher than 185K.",
+      "turn_index": 20,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "advocating",
+        "behaviors": [
+          "turning_to_cfo",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "I hear you Sarah. Let me ask this differently - what's the payback period when we factor in implementation time and the ramp to full value?",
+      "turn_index": 21,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "calculating",
+        "behaviors": [
+          "reviewing_spreadsheet"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "If you're getting value from phase one in month two, and we're conservative with a 10% optimization impact, you're cash flow positive by month eight or nine. Full payback by month 13 to 14.",
+      "turn_index": 22,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Okay, that's reasonable. What about the pricing itself - is there any flexibility on the 185K given our size? We're at 280 employees, not quite at the 500 mark.",
+      "turn_index": 23,
+      "paralinguistic": {
+        "pause_before_sec": 2.1,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "hesitant",
+        "behaviors": [
+          "minimal_eye_contact",
+          "shifting_in_seat"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate you asking that directly. The pricing is based more on your marketing spend and data volume than pure headcount. Your 2.3 million in spend puts you solidly in this tier. That said, what would make this feel like a confident yes for you?",
+      "turn_index": 24,
+      "paralinguistic": {
+        "pause_before_sec": 0.7,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "exploratory",
+        "behaviors": [
+          "lean_forward",
+          "open_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Um, honestly if we could get closer to 170K, that would help me sell this internally to our CEO. We're being pretty cautious with new tool spend this year.",
+      "turn_index": 25,
+      "paralinguistic": {
+        "pause_before_sec": 1.3,
+        "energy": "low",
+        "pitch": "falling",
+        "hesitation_markers": [
+          "um",
+          "uh"
+        ],
+        "tone": "uncertain",
+        "behaviors": [
+          "avoiding_eye_contact",
+          "hand_rubbing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "David, I get the budget pressure, but we're talking about optimizing 2.3 million in spend. Even a 5% improvement dwarfs the cost difference you're negotiating.",
+      "turn_index": 26,
+      "paralinguistic": {
+        "pause_before_sec": 0.3,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "urgent",
+        "behaviors": [
+          "hand_gesture",
+          "direct_look"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Let me think about what's possible. If you can commit to an annual contract today, I could potentially bring this to 177K. That would need approval from my VP, but I think there's a path given Sarah's advocacy and your clear use case.",
+      "turn_index": 27,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "collaborative",
+        "behaviors": [
+          "thoughtful_pause",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "177K annual commitment. Can we do quarterly payment terms?",
+      "turn_index": 28,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "negotiating",
+        "behaviors": [
+          "leaning_forward"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "We can do quarterly payments at 177K, yes. That's actually our standard billing structure.",
+      "turn_index": 29,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Alright. Sarah, you're confident your team can dedicate the implementation time we discussed?",
+      "turn_index": 30,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "verifying",
+        "behaviors": [
+          "turning_to_vp"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "Absolutely. I've already talked to my marketing ops lead about this. We're ready to move if we can get budget approval.",
+      "turn_index": 31,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "nodding",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Okay. The ROI math works, the implementation plan addresses my resource concerns, and the pricing is reasonable at 177K. What's the next step?",
+      "turn_index": 32,
+      "paralinguistic": {
+        "pause_before_sec": 1.8,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "resigned_acceptance",
+        "behaviors": [
+          "minimal_gesturing",
+          "closed_posture",
+          "brief_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I'll get the updated agreement over to you by end of day with the 177K pricing and quarterly terms. Then we'd kick off implementation within one week of signature. Sarah, we'd schedule that initial planning call with your team right away.",
+      "turn_index": 33,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "energized",
+        "behaviors": [
+          "note_taking",
+          "smile"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_marketing",
+      "text": "Perfect. This is exactly what we need to get marketing and sales aligned on attribution. Thanks for working through all the details with us.",
+      "turn_index": 34,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "smile",
+          "relaxed_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Thank you both. David, I know you're being careful with investments this year and I appreciate you working through the numbers with me. I'm confident you'll see the value quickly once we're live.",
+      "turn_index": 35,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "grateful",
+        "behaviors": [
+          "direct_eye_contact",
+          "professional_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Appreciate it. Send over that agreement and we'll get this moving.",
+      "turn_index": 36,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "conclusive",
+        "behaviors": [
+          "gathering_documents",
+          "preparing_to_leave"
+        ]
+      }
+    }
+  ]
+}

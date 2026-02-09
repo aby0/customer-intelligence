@@ -1,0 +1,92 @@
+{
+  "executive_summary": "This call was between a sales rep and Nina, Head of Data at a 60-person analytics consulting firm, who had downloaded the company's attribution benchmarking report. The conversation centered on Nina's inability to accurately attribute marketing results across channels—particularly podcast sponsorships worth $180K annually—due to a manual, spreadsheet-based process that consumes two analyst-days per month and produces unreliable data. The core pain point is a \"dark funnel\" problem: prospects hear about the firm on podcasts but are misattributed to organic search, leaving the CEO without data to decide whether to scale or cut the podcast investment.\n\nNina raised two notable objections during the call. First, she pushed back on the self-reported attribution approach, citing poor data quality from a prior manual attempt with dropdown fields [turn 9]. The rep effectively addressed this by explaining the product's NLP-powered free-text approach and its 70-80% match rate with digital signals [turn 10]. Second, Nina flagged budget sensitivity and limited engineering resources [turns 11, 17], both of which were handled well—the rep positioned the $42K annual cost against the $180K podcast spend decision and confirmed that implementation requires only marketing ops, not engineering.\n\nThe deal is in strong shape. Nina expressed clear buying intent and stated she would recommend the purchase to her CEO, Alisha, with the goal of providing an answer by Friday [turn 25]. The rep committed to sending a proposal with two consulting-firm case studies by end of day. Implementation could begin as early as next Monday with a target go-live by end of March. The primary remaining hurdle is CEO approval, though Nina expressed confidence she can secure it independently.",
+  "key_moments": [
+    {
+      "moment_type": "insight",
+      "description": "Nina revealed the firm spends $180K annually on podcast sponsorships but cannot attribute their impact, and the CEO is pressing for a keep-or-kill decision.",
+      "significance": "This quantified the cost of inaction and framed the product as directly enabling a high-stakes budget decision, making the $42K price tag easy to justify with ROI logic.",
+      "turn_indices": [
+        6,
+        7
+      ]
+    },
+    {
+      "moment_type": "objection",
+      "description": "Nina pushed back on self-reported attribution, saying a prior manual attempt with dropdowns produced terrible data quality.",
+      "significance": "This was the most substantive objection in the call. The rep's response about NLP-based free-text categorization and 70-80% match rates converted skepticism into interest and was a clear turning point toward buy-in.",
+      "turn_indices": [
+        9,
+        10
+      ]
+    },
+    {
+      "moment_type": "breakthrough",
+      "description": "The rep explained that 12 months of historical data can be ingested from HubSpot and ad platforms for retroactive attribution modeling.",
+      "significance": "This addressed an unasked concern—Nina could validate the tool's accuracy against anecdotal podcast evidence before changing budget allocations, significantly reducing perceived risk of adoption.",
+      "turn_indices": [
+        19,
+        20
+      ]
+    },
+    {
+      "moment_type": "breakthrough",
+      "description": "Nina confirmed that no engineering resources are needed and that the marketing ops person can handle the entire implementation.",
+      "significance": "Engineering resource scarcity was a potential dealbreaker. Confirming a no-engineering implementation removed a key internal blocker and made the project feasible without cross-functional dependencies.",
+      "turn_indices": [
+        17,
+        18
+      ]
+    },
+    {
+      "moment_type": "commitment",
+      "description": "Nina stated she is 'pretty sold,' will recommend the purchase to CEO Alisha, and aims to have an answer by Friday.",
+      "significance": "This is a strong verbal commitment with a concrete timeline. The deal now hinges on one internal conversation rather than a lengthy evaluation cycle.",
+      "turn_indices": [
+        21,
+        23,
+        25
+      ]
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Send proposal with $42K annual pricing, quarterly billing terms, and two case studies from similar-sized consulting firms by end of day",
+      "owner": "rep",
+      "criticality": "high"
+    },
+    {
+      "action": "Present the proposal and case studies to CEO Alisha and secure approval, targeting a decision by Friday",
+      "owner": "prospect",
+      "criticality": "high"
+    },
+    {
+      "action": "Be available for a call with CEO Alisha if questions arise during internal review",
+      "owner": "rep",
+      "criticality": "medium"
+    },
+    {
+      "action": "If deal is signed this week, schedule implementation kickoff for next Monday with marketing ops point of contact",
+      "owner": "rep",
+      "criticality": "medium"
+    },
+    {
+      "action": "Follow up on Friday if no response received to keep the timeline on track for end-of-March go-live",
+      "owner": "rep",
+      "criticality": "medium"
+    }
+  ],
+  "prospect_priorities": [
+    "Accurately attributing podcast sponsorship impact to justify or reallocate $180K in annual spend",
+    "Eliminating manual attribution work that consumes two analyst-days per month and produces unreliable data",
+    "Implementation that requires zero engineering resources and can be handled entirely by marketing ops",
+    "Ability to validate attribution accuracy using historical data before making budget allocation changes",
+    "Fast time-to-value with a three-to-four-week implementation timeline"
+  ],
+  "concerns_to_address": [
+    "CEO Alisha has final budget authority and has not been directly engaged—if the case studies or ROI framing don't resonate with her, the deal could stall",
+    "Nina described the company as 'not a big budget operation,' suggesting $42K may face scrutiny or require budget reallocation from elsewhere",
+    "The prospect's confidence in self-reported attribution was damaged by a prior failed attempt; long-term trust in the NLP approach will depend on early results matching expectations",
+    "Partner co-marketing attribution was mentioned as a channel but was not discussed in detail—unclear whether the product fully supports this use case, which could surface as a gap during evaluation",
+    "Nina is championing this internally alone; if she encounters unexpected resistance or competing priorities from the CEO, there is no secondary internal advocate"
+  ]
+}

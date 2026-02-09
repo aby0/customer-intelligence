@@ -1,0 +1,538 @@
+{
+  "account": {
+    "company_name": "Legacy Systems Corp",
+    "company_size": "enterprise",
+    "industry": "Manufacturing",
+    "deal_stage": "evaluation",
+    "deal_outcome": "lost",
+    "stakeholders": [
+      {
+        "name": "Thomas Wright",
+        "role": "VP Operations",
+        "persona_type": "reluctant_adopter"
+      },
+      {
+        "name": "Lisa Chang",
+        "role": "Digital Transformation Lead",
+        "persona_type": "analytical_evaluator"
+      },
+      {
+        "name": "Mark Johnson",
+        "role": "CFO",
+        "persona_type": "reluctant_adopter"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "legacy_systems_corp_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 50,
+    "participants": [
+      "rep",
+      "prospect_vp_operations",
+      "prospect_digital_transformation_lead",
+      "prospect_cfo"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Good morning everyone! Thanks so much for making the time today. I have Thomas, Lisa, and Mark on the line, is that right?",
+      "turn_index": 0,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Yes, Thomas Wright here. I'm VP of Operations.",
+      "turn_index": 1,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Lisa Chang, Digital Transformation Lead. Thanks for setting this up.",
+      "turn_index": 2,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "Mark Johnson, CFO. I'm here.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Perfect. So just to set the stage, Lisa reached out to us a few weeks ago about modernizing your production scheduling system. I'd love to hear from each of you what's driving this evaluation from your perspective.",
+      "turn_index": 4,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Sure, I can start. We're running on systems that are fifteen years old in some cases. Our competitors are moving faster, and we're seeing inefficiencies in how we schedule production runs. I think there's real opportunity here to improve our throughput.",
+      "turn_index": 5,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "I'll jump in here. Lisa's brought this up a few times, but I'm not entirely convinced we have a problem that needs solving. Our current system works. We know it inside and out.",
+      "turn_index": 6,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's fair, Thomas. Can you help me understand what's working well with your current setup?",
+      "turn_index": 7,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "It's stable. We haven't had major downtime in years. The team knows how to use it. When you've been in manufacturing as long as I have, you learn that changing systems is where things go wrong.",
+      "turn_index": 8,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "But Thomas, we talked about this. The manual workarounds your team does every day, the spreadsheets, the lack of real-time visibility. Those are real issues.",
+      "turn_index": 9,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Workarounds that function perfectly fine. My team hasn't complained.",
+      "turn_index": 10,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate both perspectives. Thomas, what would need to be true for you to consider a change worth the effort?",
+      "turn_index": 11,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Honestly? I'd need to see a compelling reason why we can't just keep doing what we're doing. We've been profitable, we meet our production targets. Why introduce risk?",
+      "turn_index": 12,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "What kind of investment are we talking about here?",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Great question, Mark. For an organization your size, typically we're looking at anywhere from 250 to 400 thousand for the platform, depending on modules and user count. Implementation is separate.",
+      "turn_index": 14,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "And implementation runs how much?",
+      "turn_index": 15,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Usually in the range of 150 to 200 thousand, depending on complexity and timeline. That includes training, data migration, and support through go-live.",
+      "turn_index": 16,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "So we're talking half a million, potentially more.",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's in the ballpark, yes. Obviously we'd need to do a proper scoping exercise to get precise.",
+      "turn_index": 18,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Half a million dollars to replace something that isn't broken. I'm sorry, but I'm just not seeing it.",
+      "turn_index": 19,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Can you walk us through what the implementation timeline looks like? I know we looked at CompetitorZ and their process seemed really drawn out.",
+      "turn_index": 20,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Sure. We typically see implementations in the four to six month range for manufacturing customers. CompetitorZ tends to be longer because they require more customization. Our platform is more configurable out of the box.",
+      "turn_index": 21,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Four to six months where my operations team is distracted from actually running production. That's a lot of disruption.",
+      "turn_index": 22,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I understand the concern about disruption. Most of the heavy lifting is on our implementation team. Your folks would be involved primarily in requirements gathering, testing, and training.",
+      "turn_index": 23,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "That's still time away from their real jobs. And what happens when something goes wrong during the transition? We have customer commitments.",
+      "turn_index": 24,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Thomas, we can phase it in. We don't have to flip a switch overnight. That's what I've been proposing.",
+      "turn_index": 25,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Or we don't do it at all and avoid the risk entirely.",
+      "turn_index": 26,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Thomas, I'm hearing that risk mitigation is really important to you. What if we could structure a phased rollout with a pilot line first?",
+      "turn_index": 27,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "A pilot still requires investment, still requires my team's time, and for what? To prove we need to fix something that's not broken?",
+      "turn_index": 28,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "What's the annual recurring cost after the initial investment?",
+      "turn_index": 29,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "The subscription model runs about 80 to 100 thousand annually, which includes support, updates, and cloud hosting.",
+      "turn_index": 30,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "So year one is over 600 thousand all-in, then 100K ongoing.",
+      "turn_index": 31,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's correct. The business case typically focuses on efficiency gains, reduced errors, and better resource utilization.",
+      "turn_index": 32,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Which we've calculated could save us significant overtime costs and reduce our schedule change cycle time by at least 40 percent.",
+      "turn_index": 33,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Those are projections, Lisa. Not guarantees. I've seen plenty of software promises that didn't pan out.",
+      "turn_index": 34,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's a valid concern. We do have case studies from similar manufacturing environments. Would it be helpful to connect you with a reference customer?",
+      "turn_index": 35,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Maybe. But every operation is different. What worked for them doesn't mean it'll work for us.",
+      "turn_index": 36,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "I think a demo would be really valuable. Can we schedule that? I'd like to see the platform in action with manufacturing-specific scenarios.",
+      "turn_index": 37,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. I can have our solutions engineer prepare a demo tailored to your production environment. Would next week work?",
+      "turn_index": 38,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "That works for me. Thomas, Mark, can you join?",
+      "turn_index": 39,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "I suppose I can make time, but I want to be clear that I'm highly skeptical.",
+      "turn_index": 40,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_cfo",
+      "text": "I'll try to attend, depending on board prep schedule.",
+      "turn_index": 41,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Great. I'll send over some times. In the meantime, is there anything specific you'd like to see in the demo?",
+      "turn_index": 42,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Show me how it handles schedule changes when we get a rush order. That's where things get complicated in the real world.",
+      "turn_index": 43,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "And I'd like to see the reporting capabilities and how it integrates with our ERP system.",
+      "turn_index": 44,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Perfect. We'll build the demo around those scenarios. Which ERP are you currently using?",
+      "turn_index": 45,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "We're on SAP, though it's an older version.",
+      "turn_index": 46,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Got it. We have standard SAP connectors, so that should be straightforward. I'll make sure our engineer is prepared to walk through that integration.",
+      "turn_index": 47,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Another integration point, another thing that can break. This is exactly what concerns me.",
+      "turn_index": 48,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I hear you, Thomas. We'll address the integration reliability and our testing process in the demo. Any other concerns I should make sure we cover?",
+      "turn_index": 49,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Just be realistic. Don't oversell it. I want to see actual capabilities, not marketing slides.",
+      "turn_index": 50,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Understood. We'll do a live environment walkthrough, not a slide presentation. Alright, I'll get that demo scheduled and send over the details. Thanks for your time today, everyone.",
+      "turn_index": 51,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Thanks. Looking forward to it.",
+      "turn_index": 52,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "We'll see.",
+      "turn_index": 53,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Hi everyone, thanks for joining for the demo today. I have our solutions engineer Sarah on the line as well. She'll be walking us through the platform.",
+      "turn_index": 54,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Great, thanks for putting this together. I'm excited to see it in action.",
+      "turn_index": 55,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Let's get started. I don't have a lot of time today.",
+      "turn_index": 56,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. Sarah, why don't you dive right in with the rush order scenario Thomas mentioned?",
+      "turn_index": 57,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "So what you're seeing here is how the system automatically evaluates capacity when a rush order comes in. It shows you the impact across all production lines and suggests optimal rescheduling.",
+      "turn_index": 58,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Right, but my schedulers already know how to do this. They've been doing it for years. They know the nuances of each line, each operator, each piece of equipment.",
+      "turn_index": 59,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "But Thomas, this gives them better visibility and removes the manual calculation work. It's augmenting their expertise, not replacing it.",
+      "turn_index": 60,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "We've done just fine without it. I don't see why we need to spend half a million dollars to make things marginally more convenient.",
+      "turn_index": 61,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Thomas, what if we look at this from a scalability perspective? As you grow or take on more complex orders, having this foundation in place could be valuable.",
+      "turn_index": 62,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "We're not planning massive growth. We're a stable business. We don't need to scale dramatically. And frankly, if we do grow, we'll hire another scheduler. That's a lot cheaper than this system.",
+      "turn_index": 63,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "But the data analytics alone would give us insights we don't have today. We could optimize in ways we haven't even identified yet.",
+      "turn_index": 64,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Lisa, I appreciate what you're trying to do, but this feels like a solution looking for a problem. We're profitable. Our customers are happy. Our system works. Why would we introduce all this risk and complexity?",
+      "turn_index": 65,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Because our competitors are modernizing and we're going to fall behind. We've already lost two bids this year to companies with better lead times.",
+      "turn_index": 66,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "We lost those bids on price, not lead times. That's completely different. And I'm not convinced this system would have changed those outcomes.",
+      "turn_index": 67,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Thomas, I'm hearing that you're concerned about the risk versus reward equation. Is there anything we could show you today that would shift that perspective?",
+      "turn_index": 68,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Honestly? No. I've been in manufacturing for 28 years. I've seen too many software implementations disrupt operations, go over budget, and under-deliver. Our current approach is working. I don't want to fix what isn't broken.",
+      "turn_index": 69,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "But Thomas, we have to think long-term here. The board has asked us to evaluate digital transformation initiatives.",
+      "turn_index": 70,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "And we're evaluating it. My evaluation is that it's not worth the investment or the risk. Lisa, I know you're passionate about this, but I can't support moving forward.",
+      "turn_index": 71,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate your directness, Thomas. Lisa, where does this leave things from your perspective?",
+      "turn_index": 72,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "I mean, I still think this would be valuable, but if Operations isn't on board, it's not going to work. Thomas, is there any scenario where you'd reconsider?",
+      "turn_index": 73,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "If our current system fails catastrophically or if we face a real business problem that requires this kind of solution, then maybe. But right now? No. We've done fine without it for this long. We'll continue to do fine.",
+      "turn_index": 74,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "This is frustrating. I'm sorry you had to see this dynamic. I clearly don't have the authority to push this through.",
+      "turn_index": 75,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I understand. These decisions need alignment across stakeholders. Thomas, I respect where you're coming from, even if we see it differently.",
+      "turn_index": 76,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "I appreciate that. Look, it's nothing personal. I just have to protect my operations and make sure we're spending money on things that truly move the needle. This doesn't meet that bar for me.",
+      "turn_index": 77,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Understood. Lisa, should we table this for now? I'm happy to stay in touch in case circumstances change.",
+      "turn_index": 78,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Yeah, I think we need to. I'll keep the conversation open internally, but realistically, I don't see this moving forward in the near term.",
+      "turn_index": 79,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate your time and transparency throughout this process. If anything changes or if there are other areas where we might be able to help, please don't hesitate to reach out.",
+      "turn_index": 80,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_digital_transformation_lead",
+      "text": "Will do. Thanks for your patience with us.",
+      "turn_index": 81,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_operations",
+      "text": "Thanks for the demo. Good luck with your other customers.",
+      "turn_index": 82,
+      "paralinguistic": null
+    }
+  ]
+}

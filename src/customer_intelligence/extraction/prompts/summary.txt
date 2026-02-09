@@ -1,0 +1,47 @@
+You are creating an executive summary of a sales call transcript for a sales manager.
+Your summary should help someone understand what happened in this call without reading it.
+
+TRANSCRIPT:
+{transcript}
+
+Produce the following:
+
+1. EXECUTIVE SUMMARY (2-3 paragraphs):
+   - What was this call about? Who was involved?
+   - What were the main discussion points, objections raised, and how they were handled?
+   - What is the deal status and what are the next steps?
+   Write in narrative prose, not bullet points.
+
+2. KEY MOMENTS (3-5 turning points in the conversation):
+   - Breakthroughs, objections, commitments, risks, or insights
+   - Reference specific turn indices so the reader can find them
+   - Explain why each moment matters for the deal
+
+3. ACTION ITEMS:
+   - Follow-up tasks with the responsible party (rep, prospect, or specific stakeholder name)
+   - Rate criticality: high (blocks deal), medium (important), low (nice-to-have)
+
+4. PROSPECT PRIORITIES (top 3-5):
+   - What does the prospect care about most, based on what they said and asked?
+
+5. CONCERNS TO ADDRESS:
+   - Unresolved issues that could block or stall the deal
+   - Include concerns that were implied but not explicitly stated
+
+Return ONLY valid JSON:
+{{
+  "executive_summary": "2-3 paragraph narrative string",
+  "key_moments": [
+    {{"moment_type": "breakthrough|objection|commitment|risk|insight",
+      "description": "what happened",
+      "significance": "why it matters for the deal",
+      "turn_indices": [int]}}
+  ],
+  "action_items": [
+    {{"action": "what needs to happen",
+      "owner": "rep|prospect|stakeholder name",
+      "criticality": "high|medium|low"}}
+  ],
+  "prospect_priorities": ["priority 1", "priority 2"],
+  "concerns_to_address": ["concern 1", "concern 2"]
+}}

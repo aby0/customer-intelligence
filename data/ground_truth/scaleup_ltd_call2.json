@@ -1,0 +1,529 @@
+{
+  "transcript_id": "scaleup_ltd_call2",
+  "extraction_timestamp": "2026-02-07T00:00:00Z",
+  "surface": {
+    "aspects": [
+      {
+        "aspect": "case_study_effectiveness",
+        "sentiment": "positive",
+        "intensity": 0.95,
+        "context": "Case study showing 35% conversion rate increase was exactly what prospects needed to see",
+        "source_utterance_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "aspect": "roi_projections",
+        "sentiment": "positive",
+        "intensity": 0.85,
+        "context": "5-month payback period calculated by prospect based on conservative estimates",
+        "source_utterance_indices": [
+          4,
+          5
+        ]
+      },
+      {
+        "aspect": "implementation_timeline",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "6-week timeline vs competitor's 12 weeks is critical advantage for Q3 launch",
+        "source_utterance_indices": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "aspect": "resource_requirements",
+        "sentiment": "mixed",
+        "intensity": 0.6,
+        "context": "Initial concern about technical team allocation, resolved with 10-15 hours/week estimate",
+        "source_utterance_indices": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "aspect": "pricing",
+        "sentiment": "mixed",
+        "intensity": 0.65,
+        "context": "$96k annual commitment with flexibility on quarterly payment terms",
+        "source_utterance_indices": [
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "aspect": "platform_customization",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "More flexible than competitor for specific product categories",
+        "source_utterance_indices": [
+          7
+        ]
+      },
+      {
+        "aspect": "customer_success_support",
+        "sentiment": "positive",
+        "intensity": 0.75,
+        "context": "Dedicated CSM from day one valued as single point of contact",
+        "source_utterance_indices": [
+          20,
+          21
+        ]
+      },
+      {
+        "aspect": "performance_plateau",
+        "sentiment": "negative",
+        "intensity": 0.8,
+        "context": "Company stuck at current performance level for 3 quarters",
+        "source_utterance_indices": [
+          5,
+          25
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "name": "case_study_review",
+        "timeline_position": "early",
+        "relevance": 0.95
+      },
+      {
+        "name": "competitive_comparison",
+        "timeline_position": "early",
+        "relevance": 0.85
+      },
+      {
+        "name": "implementation_planning",
+        "timeline_position": "mid",
+        "relevance": 0.9
+      },
+      {
+        "name": "pricing_negotiation",
+        "timeline_position": "mid",
+        "relevance": 0.8
+      },
+      {
+        "name": "contract_finalization",
+        "timeline_position": "late",
+        "relevance": 0.95
+      },
+      {
+        "name": "roi_analysis",
+        "timeline_position": "early",
+        "relevance": 0.85
+      },
+      {
+        "name": "timeline_urgency",
+        "timeline_position": "early",
+        "relevance": 0.9
+      }
+    ],
+    "entities": [
+      {
+        "name": "Alex Turner",
+        "entity_type": "person",
+        "role": "CEO",
+        "mention_count": 5
+      },
+      {
+        "name": "Priya Sharma",
+        "entity_type": "person",
+        "role": "Marketing Director",
+        "mention_count": 4
+      },
+      {
+        "name": "ScaleUp Ltd",
+        "entity_type": "company",
+        "role": "prospect",
+        "mention_count": 1
+      },
+      {
+        "name": "CompetitorX",
+        "entity_type": "competitor",
+        "role": "alternative vendor",
+        "mention_count": 1
+      },
+      {
+        "name": "fashion retailer",
+        "entity_type": "company",
+        "role": "case study subject",
+        "mention_count": 2
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "exactly what we needed to see",
+        "relevance": 0.9,
+        "context": "Strong validation of case study effectiveness"
+      },
+      {
+        "phrase": "this becomes a no-brainer",
+        "relevance": 0.95,
+        "context": "CEO expressing strong buying intent"
+      },
+      {
+        "phrase": "non-negotiable for us",
+        "relevance": 0.9,
+        "context": "CEO emphasizing timeline requirement"
+      },
+      {
+        "phrase": "I'm convinced this is the right move",
+        "relevance": 0.95,
+        "context": "CEO commitment statement"
+      },
+      {
+        "phrase": "when can we start",
+        "relevance": 0.95,
+        "context": "Clear buying signal"
+      },
+      {
+        "phrase": "break through our current plateau",
+        "relevance": 0.85,
+        "context": "Core business problem statement"
+      },
+      {
+        "phrase": "let's get this show on the road",
+        "relevance": 0.9,
+        "context": "Final commitment to proceed"
+      }
+    ]
+  },
+  "behavioral": {
+    "objection_triples": [
+      {
+        "objection": {
+          "type": "implementation",
+          "specific_language": "My main concern is resource allocation on our end. As we discussed last time, our technical team is pretty lean. How much of their time are we realistically talking about during implementation?",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            10
+          ]
+        },
+        "resolution": {
+          "type": "technical_demo",
+          "specific_language": "Your technical team would need to dedicate roughly ten to fifteen hours per week during weeks two and three—that's the heavy integration phase. Outside of that, we're probably talking five hours a week for the other weeks. We handle the bulk of the configuration ourselves.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            11
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect confirmed manageable resource allocation"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "pricing",
+          "specific_language": "I do want to revisit the pricing one more time though. The annual commitment at ninety-six thousand—is there any flexibility there? I know we discussed this last week, but I wanted to ask again now that we're getting serious.",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            15
+          ]
+        },
+        "resolution": {
+          "type": "other",
+          "specific_language": "I appreciate you bringing that up directly. The ninety-six thousand is for the full platform with the advanced analytics module you wanted. I do have some flexibility if we adjusted the payment terms—we could do quarterly payments instead of annual upfront, which might help with cash flow. But the total investment would stay the same.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            16
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Quarterly payment terms agreed upon"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "competition",
+          "specific_language": "We did have a follow-up call with them. Their pricing came in lower, but their implementation timeline was twelve weeks versus your six. And honestly, their platform felt more rigid—less customization for our specific product categories.",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            7
+          ]
+        },
+        "resolution": {
+          "type": "other",
+          "specific_language": "Timeline is critical, especially with seasonal businesses like yours. Our implementation team has done this exact rollout with three other e-commerce companies this quarter, so we've got the process down.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            9
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Competitive concerns neutralized by timeline and flexibility advantages"
+        },
+        "confidence": 0.9
+      }
+    ],
+    "buying_intent_markers": [
+      {
+        "type": "if_to_when_shift",
+        "evidence": "when can we start?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          13
+        ]
+      },
+      {
+        "type": "timeline_question",
+        "evidence": "When can we start?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          13
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "How much of their time are we realistically talking about during implementation?",
+        "confidence": 0.85,
+        "source_utterance_indices": [
+          10
+        ]
+      },
+      {
+        "type": "budget_confirmation",
+        "evidence": "I ran some projections based on our current conversion rates and average order value. If we can achieve even twenty percent of what they did, we'd see payback in about five months.",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          4
+        ]
+      },
+      {
+        "type": "next_steps_request",
+        "evidence": "What do we need to do on our end to make this happen? What's the next step?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          22
+        ]
+      },
+      {
+        "type": "other",
+        "evidence": "I'm convinced this is the right move for us",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          13
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "implementation starting next Monday, quarterly payments, and we should be fully live in six weeks—that puts us at mid-June, which is exactly when we need to be ramping up",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          19
+        ]
+      }
+    ],
+    "competitive_mentions": [
+      {
+        "competitor": "CompetitorX",
+        "context": "Evaluated as alternative, lower pricing but 12-week implementation timeline and less platform flexibility",
+        "sentiment": "negative",
+        "comparison_type": "timeline and customization disadvantages",
+        "source_utterance_indices": [
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "engagement_trajectory": [
+      {
+        "phase": "early",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Both stakeholders actively engaged, CEO very enthusiastic about case study, Marketing Director analytical about methodology and ROI"
+      },
+      {
+        "phase": "mid",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "medium",
+        "notes": "Marketing Director digging into implementation details and pricing, some hesitation around resource allocation and budget"
+      },
+      {
+        "phase": "late",
+        "participation_level": "high",
+        "question_depth": "moderate",
+        "energy": "high",
+        "notes": "CEO driving to close, asking about next steps, high enthusiasm about partnership, Marketing Director supportive with logistics"
+      }
+    ]
+  },
+  "psychographic": {
+    "mental_model": {
+      "primary": "growth_enablement",
+      "secondary": "risk_mitigation",
+      "evidence": [
+        "this becomes a no-brainer if we can scale the way they did",
+        "break through our current plateau and scale the way we've been wanting to",
+        "We've been stuck at our current performance level for three quarters now",
+        "I ran some projections based on our current conversion rates... we'd see payback in about five months"
+      ],
+      "confidence": 0.9,
+      "reasoning": "CEO consistently frames the solution in terms of growth and scaling ('break through plateau', 'scale the way we've been wanting to'), indicating growth_enablement is the primary mental model. Marketing Director shows risk_mitigation as secondary through detailed analysis of ROI, payback periods, and resource requirements before committing. The combination of urgency around growth with careful validation of financial return demonstrates both models at play."
+    },
+    "persona_indicators": [
+      {
+        "archetype": "executive_champion",
+        "confidence": 0.95,
+        "evidence": [
+          "that case study was exactly what we needed to see",
+          "this becomes a no-brainer",
+          "I'm convinced this is the right move for us. When can we start?",
+          "I'm really excited about this partnership",
+          "direct eye contact, emphatic gestures, lean forward behaviors"
+        ],
+        "reasoning": "Alex Turner (CEO) exhibits classic executive_champion behavior: quick to enthusiasm after seeing proof, focused on strategic outcomes (scaling, breaking through plateau), making decisive statements, driving to close, and expressing partnership excitement. High energy, rising pitch, and forward-leaning body language throughout."
+      },
+      {
+        "archetype": "analytical_evaluator",
+        "confidence": 0.95,
+        "evidence": [
+          "I reviewed it as well. The methodology was solid, and I appreciate that you broke down the attribution model",
+          "I ran some projections based on our current conversion rates and average order value",
+          "My main concern is resource allocation on our end",
+          "I do want to revisit the pricing one more time though",
+          "note-taking, referencing notes, adjusting glasses behaviors"
+        ],
+        "reasoning": "Priya Sharma (Marketing Director) demonstrates textbook analytical_evaluator traits: methodical review of case study methodology, running detailed financial projections, questioning resource requirements, revisiting pricing multiple times, and careful validation before agreeing. Body language shows caution (crossed arms, lean back) and analytical behavior (note-taking, document review)."
+      }
+    ],
+    "language_fingerprint": {
+      "distinctive_vocabulary": [
+        "no-brainer",
+        "non-negotiable",
+        "plateau",
+        "inflection point",
+        "payback period",
+        "attribution model",
+        "budget cycles",
+        "resource allocation"
+      ],
+      "metaphors": [
+        "break through our current plateau",
+        "inflection point",
+        "get this show on the road"
+      ],
+      "framing_patterns": [
+        "CEO uses decisive, action-oriented language ('when can we start', 'let's do this')",
+        "Marketing Director frames in analytical terms ('I ran projections', 'if we achieve X then Y')",
+        "CEO frames in growth/scaling terms consistently",
+        "Marketing Director frames in risk/validation terms",
+        "Both use temporal framing around Q3/seasonal urgency"
+      ]
+    }
+  },
+  "multimodal": {
+    "divergences": [
+      {
+        "utterance_index": 7,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "1.2s pause before speaking",
+          "falling pitch",
+          "um hesitation marker",
+          "looking down",
+          "slight head tilt"
+        ],
+        "interpretation": "Despite neutral/comparative text about competitor, the long pause, falling pitch, and downward gaze suggest discomfort or concern about the competitive evaluation process or decision pressure",
+        "confidence": 0.75
+      },
+      {
+        "utterance_index": 10,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "0.5s pause",
+          "low energy",
+          "flat pitch",
+          "um hesitation marker",
+          "crossed arms",
+          "slight lean back"
+        ],
+        "interpretation": "Question about resource allocation accompanied by defensive body language (crossed arms, lean back) and low energy suggests deeper concern or skepticism about implementation feasibility than text alone conveys",
+        "confidence": 0.8
+      },
+      {
+        "utterance_index": 15,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "1.5s pause before speaking",
+          "falling pitch",
+          "um and uh hesitation markers",
+          "looking at notes",
+          "slight frown"
+        ],
+        "interpretation": "Revisiting pricing with significant pause, multiple hesitations, and slight frown indicates stronger pricing concern or discomfort than polite question suggests; may indicate last attempt at negotiation before commitment",
+        "confidence": 0.85
+      }
+    ],
+    "composite_sentiments": [
+      {
+        "utterance_index": 7,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "mixed",
+        "confidence": 0.75,
+        "note": "Competitive comparison text is neutral but paralinguistic cues suggest underlying discomfort or concern"
+      },
+      {
+        "utterance_index": 10,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.8,
+        "note": "Resource allocation question appears neutral but defensive body language and low energy indicate stronger concern"
+      },
+      {
+        "utterance_index": 15,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.85,
+        "note": "Pricing revisit framed politely but significant pause, hesitations, and frown reveal stronger pricing concern"
+      },
+      {
+        "utterance_index": 12,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.9,
+        "note": "Text and nonverbal cues align; genuine relief and resolution of concern"
+      },
+      {
+        "utterance_index": 13,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.95,
+        "note": "CEO enthusiasm reinforced by high energy, rising pitch, forward lean, and smiling"
+      },
+      {
+        "utterance_index": 25,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.95,
+        "note": "CEO's excitement validated by standing, extending hand, broad smile, high energy"
+      }
+    ]
+  },
+  "overall_confidence": 0.9,
+  "notes": [
+    "ground truth annotation — human review recommended"
+  ]
+}

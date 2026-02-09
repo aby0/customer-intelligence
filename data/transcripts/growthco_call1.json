@@ -1,0 +1,160 @@
+{
+  "account": {
+    "company_name": "GrowthCo",
+    "company_size": "startup",
+    "industry": "FinTech",
+    "deal_stage": "discovery",
+    "deal_outcome": "won",
+    "stakeholders": [
+      {
+        "name": "Maria Rodriguez",
+        "role": "VP Growth",
+        "persona_type": "executive_champion"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "growthco_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 20,
+    "participants": [
+      "rep",
+      "prospect_vp_growth"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Maria, thanks for jumping on today. I know you're busy, so I'll keep this focused. I saw GrowthCo just closed your Series A last month—congrats on that.",
+      "turn_index": 0,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Thanks! Yeah, it's been a whirlwind. Now we actually have to deliver on all the promises we made to investors, which is why I wanted to talk. We need to scale our customer acquisition pretty aggressively.",
+      "turn_index": 1,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's the exciting part. What does aggressive look like for you over the next six months?",
+      "turn_index": 2,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "We're targeting 3x growth in our enterprise segment. Right now we're converting at maybe 12% from demo to close, and our sales cycle is sitting at 47 days. Both of those need to improve dramatically.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Got it. And what happens if you don't hit those numbers?",
+      "turn_index": 4,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Honestly? We'll miss our Series B milestones, and that puts everything at risk. We have about nine months of runway to prove the model works at scale. The pressure is real.",
+      "turn_index": 5,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That's a tight window. What have you tried so far to move those metrics?",
+      "turn_index": 6,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "We've been throwing more SDRs at it, which helps with top of funnel but doesn't solve the conversion problem. And honestly, our sales team is drowning in manual follow-up. There's no systematic way we're nurturing deals or identifying which ones are actually going to close.",
+      "turn_index": 7,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "So if I'm hearing you right, it's less about generating leads and more about actually converting the pipeline you already have?",
+      "turn_index": 8,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Exactly. We're leaving money on the table because we can't prioritize effectively. My reps are spending time on deals that are never going to close while hot opportunities go cold.",
+      "turn_index": 9,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That makes sense. We've seen companies in similar positions improve conversion by 30 to 40% when they can actually see which deals need attention and automate the repetitive stuff. What would a 35% conversion lift mean for GrowthCo?",
+      "turn_index": 10,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "That would be massive. At our average deal size, that's basically an extra 2 million in ARR this year alone. That would put us ahead of our targets, not behind them.",
+      "turn_index": 11,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "And that gives you the leverage you need going into Series B conversations.",
+      "turn_index": 12,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Exactly. Look, I'm interested. The question is timing. How fast can you get us up and running? We don't have the luxury of a six-month implementation.",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate the urgency. For a team your size, we're typically live within three weeks. First week is integration with your CRM and getting the data flowing. Week two is configuring the models and playbooks. Week three is training your team. You'd start seeing insights basically immediately after go-live.",
+      "turn_index": 14,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Three weeks I can work with. We're making decisions fast right now. What do you need from us to make that happen?",
+      "turn_index": 15,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Mainly access to your CRM data and about three hours from your sales ops person during that first week. The rest is on us. We've done this with other FinTech startups post-funding, so we know the playbook.",
+      "turn_index": 16,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Okay, this sounds like what we need. I want to see a proposal. Can you show me what success looks like in terms of actual ROI? I need to take this to our CEO and CFO next week.",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. I'll put together a business case based on your current metrics—the 12% conversion, the deal velocity, and we'll model out what that 2 million in incremental ARR looks like against the investment. Would Tuesday work to review that together?",
+      "turn_index": 18,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Tuesday works. Let's do 10 AM. And just so you know, if the numbers make sense, I'm ready to move on this. We don't have time to waste.",
+      "turn_index": 19,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate that, Maria. I'll have everything ready for Tuesday, and we'll map out next steps from there. Looking forward to helping GrowthCo hit those targets.",
+      "turn_index": 20,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_growth",
+      "text": "Perfect. Talk to you Tuesday.",
+      "turn_index": 21,
+      "paralinguistic": null
+    }
+  ]
+}

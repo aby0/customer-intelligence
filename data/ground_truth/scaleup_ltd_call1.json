@@ -1,0 +1,563 @@
+{
+  "transcript_id": "scaleup_ltd_call1",
+  "extraction_timestamp": "2026-02-07T00:00:00Z",
+  "surface": {
+    "aspects": [
+      {
+        "aspect": "growth_trajectory",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "40% year-over-year growth creating operational challenges",
+        "source_utterance_indices": [
+          1
+        ]
+      },
+      {
+        "aspect": "customer_acquisition_costs",
+        "sentiment": "negative",
+        "intensity": 0.85,
+        "context": "CAC climbing and becoming expensive at current growth rate",
+        "source_utterance_indices": [
+          4
+        ]
+      },
+      {
+        "aspect": "data_visibility",
+        "sentiment": "negative",
+        "intensity": 0.9,
+        "context": "Making decisions in the dark, lacking channel performance visibility",
+        "source_utterance_indices": [
+          4
+        ]
+      },
+      {
+        "aspect": "attribution_capability",
+        "sentiment": "negative",
+        "intensity": 0.8,
+        "context": "Current setup only tracks last-click, doesn't tell full story",
+        "source_utterance_indices": [
+          5
+        ]
+      },
+      {
+        "aspect": "implementation_speed",
+        "sentiment": "positive",
+        "intensity": 0.95,
+        "context": "One week implementation timeline considered incredibly fast",
+        "source_utterance_indices": [
+          12,
+          13
+        ]
+      },
+      {
+        "aspect": "pricing",
+        "sentiment": "mixed",
+        "intensity": 0.6,
+        "context": "$4,500/month significantly higher than competitor at $2,800, but justified by ROI potential",
+        "source_utterance_indices": [
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "aspect": "roi_potential",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "10% waste reduction would equal $8,000 monthly savings, 23% CAC reduction in case study",
+        "source_utterance_indices": [
+          18,
+          27
+        ]
+      },
+      {
+        "aspect": "technical_methodology",
+        "sentiment": "positive",
+        "intensity": 0.85,
+        "context": "Machine learning approach with solid methodology addresses concerns",
+        "source_utterance_indices": [
+          28
+        ]
+      },
+      {
+        "aspect": "timing_alignment",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "Implementation timing aligns perfectly with Q4 peak season",
+        "source_utterance_indices": [
+          30,
+          31
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "name": "growth_challenges",
+        "timeline_position": "early",
+        "relevance": 0.95
+      },
+      {
+        "name": "attribution_requirements",
+        "timeline_position": "early",
+        "relevance": 0.9
+      },
+      {
+        "name": "competitive_evaluation",
+        "timeline_position": "early",
+        "relevance": 0.85
+      },
+      {
+        "name": "technical_methodology",
+        "timeline_position": "mid",
+        "relevance": 0.8
+      },
+      {
+        "name": "pricing_justification",
+        "timeline_position": "mid",
+        "relevance": 0.85
+      },
+      {
+        "name": "case_study_validation",
+        "timeline_position": "mid",
+        "relevance": 0.9
+      },
+      {
+        "name": "implementation_timeline",
+        "timeline_position": "late",
+        "relevance": 0.95
+      },
+      {
+        "name": "contract_execution",
+        "timeline_position": "late",
+        "relevance": 1.0
+      }
+    ],
+    "entities": [
+      {
+        "name": "Alex Turner",
+        "entity_type": "person",
+        "role": "CEO",
+        "mention_count": 8
+      },
+      {
+        "name": "Priya Sharma",
+        "entity_type": "person",
+        "role": "Marketing Director",
+        "mention_count": 7
+      },
+      {
+        "name": "ScaleUp Ltd",
+        "entity_type": "company",
+        "role": "prospect",
+        "mention_count": 2
+      },
+      {
+        "name": "CompetitorX",
+        "entity_type": "competitor",
+        "role": "alternative_solution",
+        "mention_count": 3
+      },
+      {
+        "name": "CFO",
+        "entity_type": "person",
+        "role": "buying_committee_member",
+        "mention_count": 2
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "growing pains are real",
+        "relevance": 0.8,
+        "context": "Acknowledging challenges from rapid growth"
+      },
+      {
+        "phrase": "making decisions in the dark",
+        "relevance": 0.95,
+        "context": "Critical pain point around lack of visibility"
+      },
+      {
+        "phrase": "who scored the goal, not who made the assists",
+        "relevance": 0.85,
+        "context": "Attribution metaphor that resonated with prospects"
+      },
+      {
+        "phrase": "that would be massive for us",
+        "relevance": 0.9,
+        "context": "CEO expressing enthusiasm about budget reallocation potential"
+      },
+      {
+        "phrase": "scale intelligently",
+        "relevance": 0.9,
+        "context": "CEO's ultimate goal for the solution"
+      },
+      {
+        "phrase": "the numbers speak for themselves",
+        "relevance": 0.95,
+        "context": "CEO expressing conviction after reviewing case studies"
+      }
+    ]
+  },
+  "behavioral": {
+    "objection_triples": [
+      {
+        "objection": {
+          "type": "competition",
+          "specific_language": "we're evaluating a few solutions right now. We've been looking at CompetitorX as well, so we want to make sure we understand what differentiates your platform.",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            2
+          ]
+        },
+        "resolution": {
+          "type": "roi_argument",
+          "specific_language": "Where we really shine is in the speed of implementation and the ROI we deliver in the first 90 days.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            3
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospects engaged in deeper discovery"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "But we also need to see proof that whatever solution we choose will actually solve this problem.",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "early",
+          "source_utterance_indices": [
+            5
+          ]
+        },
+        "resolution": {
+          "type": "social_proof",
+          "specific_language": "I can send over three case studies today, including one from an e-commerce company at your exact scale. They reduced CAC by 23% in the first quarter.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            20
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Case studies to be reviewed"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "pricing",
+          "specific_language": "That's significantly higher than CompetitorX. They quoted us $2,800 per month. What justifies the difference?",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            16
+          ]
+        },
+        "resolution": {
+          "type": "roi_argument",
+          "specific_language": "CompetitorX uses rule-based attribution which requires a lot of manual configuration and maintenance. Our machine learning approach adapts automatically as your business evolves. Most of our e-commerce clients see ROI within 60 days because they're able to reallocate budget much faster.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            17
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "CEO provided supporting ROI math"
+        },
+        "confidence": 0.9
+      },
+      {
+        "objection": {
+          "type": "authority",
+          "specific_language": "We also need to discuss this with our CFO before committing to the annual contract.",
+          "speaker_role": "Marketing Director",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            22
+          ]
+        },
+        "resolution": null,
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "CFO approved as mentioned in follow-up call"
+        },
+        "confidence": 0.95
+      }
+    ],
+    "buying_intent_markers": [
+      {
+        "type": "timeline_question",
+        "evidence": "How long does implementation usually take?",
+        "confidence": 0.85,
+        "source_utterance_indices": [
+          12
+        ]
+      },
+      {
+        "type": "budget_confirmation",
+        "evidence": "What about the investment? What are we looking at in terms of pricing?",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          14
+        ]
+      },
+      {
+        "type": "if_to_when_shift",
+        "evidence": "When can we start? We're heading into Q4 which is our biggest quarter, and I want this in place as soon as possible.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          30
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "If we can get this implemented in the next week as you mentioned, we'll have data flowing before our peak season.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          31
+        ]
+      },
+      {
+        "type": "next_steps_request",
+        "evidence": "Send it over and we'll get it signed this week.",
+        "confidence": 1.0,
+        "source_utterance_indices": [
+          33
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "I'll coordinate with our dev team on the technical integration.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          34
+        ]
+      },
+      {
+        "type": "stakeholder_introduction",
+        "evidence": "We showed it to our CFO and he's on board with moving forward.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          27
+        ]
+      }
+    ],
+    "competitive_mentions": [
+      {
+        "competitor": "CompetitorX",
+        "context": "Being evaluated as alternative solution, positioned as solid tool but rule-based vs ML approach",
+        "sentiment": "neutral",
+        "comparison_type": "feature_differentiation_and_pricing",
+        "source_utterance_indices": [
+          2,
+          3,
+          16,
+          17
+        ]
+      }
+    ],
+    "engagement_trajectory": [
+      {
+        "phase": "early",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Both stakeholders actively engaged, CEO sharing urgent pain points, Marketing Director probing on methodology and proof"
+      },
+      {
+        "phase": "mid",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "medium",
+        "notes": "Marketing Director driving technical and pricing scrutiny, CEO providing supportive business case reasoning"
+      },
+      {
+        "phase": "late",
+        "participation_level": "high",
+        "question_depth": "moderate",
+        "energy": "high",
+        "notes": "Both stakeholders aligned and eager to proceed, CEO driving urgency, Marketing Director coordinating implementation"
+      }
+    ]
+  },
+  "psychographic": {
+    "mental_model": {
+      "primary": "growth_enablement",
+      "secondary": "cost_reduction",
+      "evidence": [
+        "We're up 40% year-over-year, but the growing pains are real",
+        "at our growth rate, that's becoming really expensive",
+        "If we could redirect even 20% of our budget to higher-performing channels, that would be massive for us",
+        "This is exactly what we need to scale intelligently"
+      ],
+      "confidence": 0.95,
+      "reasoning": "While cost reduction (CAC optimization) is important, the overarching frame is about enabling intelligent scaling. The CEO frames problems in terms of growth constraints ('growing pains', 'scale intelligently') rather than purely cost-cutting. The urgency is driven by Q4 growth opportunity, not budget crisis. Marketing Director's analytical approach supports this growth enablement by seeking proof of effectiveness."
+    },
+    "persona_indicators": [
+      {
+        "archetype": "executive_champion",
+        "confidence": 0.95,
+        "evidence": [
+          "That's exactly what we need! (enthusiastic endorsement)",
+          "If we're wasting even 10% of our monthly ad spend, that's like $8,000 right there. The pricing actually makes sense if it delivers. (quick ROI calculation and conviction)",
+          "The numbers speak for themselves. We showed it to our CFO and he's on board with moving forward. (driving internal consensus)",
+          "I'm really excited about this. This is exactly what we need to scale intelligently. (clear ownership and enthusiasm)"
+        ],
+        "reasoning": "CEO Alex Turner exhibits classic executive champion behavior: quick grasp of business case, enthusiasm for solution, driving internal buy-in (CFO), urgency around implementation timing, and clear decision-making authority. Leaning forward, nodding vigorously, high energy throughout."
+      },
+      {
+        "archetype": "analytical_evaluator",
+        "confidence": 0.95,
+        "evidence": [
+          "Can you walk me through the methodology? How does your attribution model actually work, and what data sources does it pull from?",
+          "And what's the sample size needed for the model to be statistically significant?",
+          "That's significantly higher than CompetitorX. They quoted us $2,800 per month. What justifies the difference?",
+          "do you have case studies from similar e-commerce companies? I need to see actual data on the results you've delivered",
+          "I have to say, the technical breakdown you provided really addressed my concerns. The methodology is solid, and seeing a 23% CAC reduction with documented proof made a big difference."
+        ],
+        "reasoning": "Marketing Director Priya Sharma demonstrates textbook analytical evaluator traits: methodological questioning, statistical rigor concerns, competitive price comparison, demand for proof/case studies, note-taking behavior, crossed arms (defensive/evaluative posture), and ultimately conviction based on data rather than emotion. Required evidence to shift from skepticism to support."
+      }
+    ],
+    "language_fingerprint": {
+      "distinctive_vocabulary": [
+        "growing pains",
+        "making decisions in the dark",
+        "scale intelligently",
+        "statistically significant",
+        "methodology",
+        "sample size",
+        "documented proof"
+      ],
+      "metaphors": [
+        "who scored the goal, not who made the assists (attribution as team sport)",
+        "making decisions in the dark (lack of visibility)"
+      ],
+      "framing_patterns": [
+        "CEO frames in business impact terms: 'massive for us', 'really expensive', growth percentages",
+        "Marketing Director frames in technical/analytical terms: 'methodology', 'statistical significance', 'technical breakdown'",
+        "CEO uses urgency framing: 'incredibly fast', 'as soon as possible', 'heading into Q4'",
+        "Marketing Director uses validation framing: 'need to see proof', 'addressed my concerns', 'documented proof'"
+      ]
+    }
+  },
+  "multimodal": {
+    "divergences": [
+      {
+        "utterance_index": 14,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "1.5s pause before speaking",
+          "low energy",
+          "flat pitch",
+          "crossed arms",
+          "minimal eye contact"
+        ],
+        "interpretation": "Marketing Director showing apprehension about pricing discussion despite neutral question. Body language suggests concern or resistance before hearing the number.",
+        "confidence": 0.85
+      },
+      {
+        "utterance_index": 19,
+        "type": "text_neutral_audio_negative",
+        "text_sentiment": "neutral",
+        "nonverbal_cues": [
+          "0.8s pause",
+          "low energy",
+          "flat pitch",
+          "hesitation marker (um)",
+          "note-taking",
+          "avoiding eye contact"
+        ],
+        "interpretation": "Marketing Director expressing reservation about pricing justification despite theoretical agreement. The pause, low energy, and avoidance of eye contact suggest lingering skepticism that needs case study proof to overcome.",
+        "confidence": 0.8
+      },
+      {
+        "utterance_index": 4,
+        "type": "text_negative_audio_positive",
+        "text_sentiment": "negative",
+        "nonverbal_cues": [
+          "1.2s pause before speaking",
+          "high energy",
+          "rising pitch",
+          "urgent tone",
+          "lean forward",
+          "hand gestures"
+        ],
+        "interpretation": "CEO expressing urgent pain point with high engagement and energy. The pause suggests gathering thoughts on serious issue, but the forward lean and gestures show this is a priority problem they're motivated to solve.",
+        "confidence": 0.9
+      }
+    ],
+    "composite_sentiments": [
+      {
+        "utterance_index": 14,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.85,
+        "note": "Pricing question delivered with significant apprehension signals - should be treated as concern rather than neutral inquiry"
+      },
+      {
+        "utterance_index": 19,
+        "original_text_polarity": "neutral",
+        "adjusted_polarity": "negative",
+        "confidence": 0.8,
+        "note": "Theoretical agreement undermined by withdrawal behaviors - represents unresolved skepticism requiring proof"
+      },
+      {
+        "utterance_index": 4,
+        "original_text_polarity": "negative",
+        "adjusted_polarity": "positive",
+        "confidence": 0.9,
+        "note": "Pain point expressed with high engagement energy - this is a motivated problem they want to solve, not just a complaint"
+      },
+      {
+        "utterance_index": 7,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.95,
+        "note": "High energy, rising pitch, vigorous nodding, and exclamation point all reinforce genuine excitement - no divergence"
+      },
+      {
+        "utterance_index": 27,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.95,
+        "note": "High energy, rising pitch, forward lean, direct eye contact all confirm decisive commitment - strong buying signal"
+      },
+      {
+        "utterance_index": 28,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.9,
+        "note": "Measured delivery reflects analytical personality rather than lack of conviction - genuine satisfaction expressed in character-appropriate manner"
+      },
+      {
+        "utterance_index": 30,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 0.95,
+        "note": "High energy, rising pitch, eager tone, forward lean, hand gestures, smiling - all signals align with strong buying intent"
+      },
+      {
+        "utterance_index": 33,
+        "original_text_polarity": "positive",
+        "adjusted_polarity": "positive",
+        "confidence": 1.0,
+        "note": "Commitment language reinforced by enthusiastic nonverbals - clear close achieved"
+      }
+    ]
+  },
+  "overall_confidence": 0.9,
+  "notes": [
+    "ground truth annotation — human review recommended"
+  ]
+}

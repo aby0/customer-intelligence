@@ -1,0 +1,749 @@
+{
+  "account": {
+    "company_name": "SafeGuard Inc",
+    "company_size": "enterprise",
+    "industry": "Cybersecurity",
+    "deal_stage": "negotiation",
+    "deal_outcome": "stalled",
+    "stakeholders": [
+      {
+        "name": "Robert Williams",
+        "role": "CISO",
+        "persona_type": "reluctant_adopter"
+      },
+      {
+        "name": "Jennifer Park",
+        "role": "Head of Content",
+        "persona_type": "executive_champion"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "safeguard_inc_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 45,
+    "participants": [
+      "rep",
+      "prospect_ciso",
+      "prospect_head_of_content"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Good morning Jennifer, Robert. Thanks so much for making time today. I know you're both incredibly busy.",
+      "turn_index": 0,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "Absolutely! I'm really excited to dig deeper into how SafeGuard can help us streamline our security posture. Robert, I've been telling you about the demo I saw last week.",
+      "turn_index": 1,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "excited",
+        "behaviors": [
+          "gesturing",
+          "smiling"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Yes, Jennifer mentioned it. I have to say, I'm still getting up to speed on what exactly you do differently from our current setup.",
+      "turn_index": 2,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "guarded",
+        "behaviors": [
+          "crossed_arms",
+          "minimal_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's completely fair, Robert. Let me give you a quick overview and then I'd love to hear about your specific concerns. SafeGuard provides end-to-end threat detection and response with AI-powered automation that reduces response time by an average of 73%.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Uh, okay. So we're currently evaluating CompetitorY and CompetitorZ as well. They both claim similar numbers. What's your actual differentiation here?",
+      "turn_index": 4,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "Uh"
+        ],
+        "tone": "skeptical",
+        "behaviors": [
+          "leaning_back",
+          "crossed_arms"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Great question. CompetitorY and CompetitorZ are solid options. Where SafeGuard really stands apart is our compliance framework integration. We're natively built for SOC 2, ISO 27001, and GDPR, which I understand are critical for your organization.",
+      "turn_index": 5,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "Yes! That's exactly what caught my attention. We're spending so much time on compliance reporting right now, it's eating into our actual security work.",
+      "turn_index": 6,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Jennifer, we need to be careful here. Compliance is just one piece. I'm more concerned about data handling. Where exactly does our data go? Do you store it? Process it? What's your data residency policy?",
+      "turn_index": 7,
+      "paralinguistic": {
+        "pause_before_sec": 0.3,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "stern",
+        "behaviors": [
+          "direct_eye_contact",
+          "firm_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely critical questions, Robert. All data is encrypted at rest and in transit using AES-256. We offer both cloud and on-premise deployment options. For data residency, you can specify regional data centers—we have facilities in the US, EU, and APAC.",
+      "turn_index": 8,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Um, what about data retention? How long do you keep our security logs? And who has access internally on your side?",
+      "turn_index": 9,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "Um"
+        ],
+        "tone": "probing",
+        "behaviors": [
+          "note_taking",
+          "furrowed_brow"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Data retention is fully configurable based on your compliance requirements—typically anywhere from 90 days to 7 years. Access is strictly role-based. Only SOC-certified engineers can access customer environments, and only with explicit approval and audit logging.",
+      "turn_index": 10,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "reassuring",
+        "behaviors": [
+          "open_hands"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "Robert, this sounds exactly like what we need. The audit logging alone would solve that issue we had with the board last quarter.",
+      "turn_index": 11,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "hopeful",
+        "behaviors": [
+          "gesturing",
+          "looking_at_ciso"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Maybe. I'm still concerned about the risk of migrating our existing security infrastructure. We've built a lot of custom integrations with our current tools. How complex is your implementation?",
+      "turn_index": 12,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "cautious",
+        "behaviors": [
+          "crossed_arms",
+          "head_tilt"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Implementation typically takes 6-8 weeks for an enterprise of your size. We have pre-built connectors for over 200 tools and platforms. What systems are you currently running?",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "We've got Splunk, ServiceNow, a custom SIEM we built internally, and about a dozen other point solutions. I'm worried about breaking what's already working.",
+      "turn_index": 14,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "worried",
+        "behaviors": [
+          "rubbing_forehead",
+          "looking_down"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "We integrate seamlessly with both Splunk and ServiceNow. For your custom SIEM, we offer API access and can work with your team on a phased approach so nothing breaks. We'd never recommend a rip-and-replace.",
+      "turn_index": 15,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "reassuring",
+        "behaviors": [
+          "lean_forward",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "A phased approach makes total sense. Robert, what do you think? Could we start with one business unit as a pilot?",
+      "turn_index": 16,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "encouraging",
+        "behaviors": [
+          "looking_at_ciso",
+          "open_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Um, I suppose that's possible. But I need to understand the compliance angle better. You mentioned SOC 2 and ISO 27001. Are you actually certified or just compatible?",
+      "turn_index": 17,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "Um"
+        ],
+        "tone": "skeptical",
+        "behaviors": [
+          "crossed_arms",
+          "squinting"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "We're fully certified. SOC 2 Type II, ISO 27001, and we're GDPR compliant. I can send you our certification documents and our latest penetration test results if that would be helpful.",
+      "turn_index": 18,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Yes, please send those over. I'll need to review them with my team. Also, uh, what happens if there's a breach on your end? What's your liability coverage?",
+      "turn_index": 19,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [
+          "uh"
+        ],
+        "tone": "probing",
+        "behaviors": [
+          "note_taking",
+          "furrowed_brow"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "We carry $50 million in cyber liability insurance and our contract includes breach notification protocols with 24-hour SLAs. We also offer cyber insurance partnerships through our provider network.",
+      "turn_index": 20,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "matter_of_fact",
+        "behaviors": []
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "That's really comprehensive. I think this addresses most of our concerns. What do we need to do to move forward?",
+      "turn_index": 21,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "eager",
+        "behaviors": [
+          "lean_forward",
+          "smiling"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Jennifer, hold on. We haven't even talked about pricing yet. And I still need to compare this against CompetitorY's proposal. They're offering a pretty aggressive discount right now.",
+      "turn_index": 22,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "cautious",
+        "behaviors": [
+          "raised_hand",
+          "stern_expression"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Of course. Let's talk pricing. Based on your user count and infrastructure scope, we're looking at approximately $385,000 annually. That includes implementation, training, and 24/7 support.",
+      "turn_index": 23,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "That's, uh, significantly higher than what CompetitorY quoted. They came in at around $280,000. CompetitorZ was even lower.",
+      "turn_index": 24,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "uh"
+        ],
+        "tone": "reluctant",
+        "behaviors": [
+          "leaning_back",
+          "crossed_arms"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I understand the price difference seems significant. The key difference is that our pricing includes the compliance automation module and unlimited threat intelligence feeds. With CompetitorY, those are add-ons that would bring their total closer to $420,000.",
+      "turn_index": 25,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "persuasive",
+        "behaviors": [
+          "lean_forward",
+          "hand_gestures"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "That's actually a really good point. Robert, when you factor in what we'd need to add on, SafeGuard might actually be more cost-effective.",
+      "turn_index": 26,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "note_taking",
+          "looking_at_notes"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Maybe. I'd need to see a detailed breakdown of what's included versus what's extra. And honestly, even if the pricing works out, I don't have authority to approve something this large on my own.",
+      "turn_index": 27,
+      "paralinguistic": {
+        "pause_before_sec": 1.8,
+        "energy": "low",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "deflective",
+        "behaviors": [
+          "looking_away",
+          "shifting_in_seat"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's completely understandable. Who else would need to be involved in the approval process?",
+      "turn_index": 28,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "This would need to go to the board. They're meeting next month, but our CFO reviews all major security investments first. And, um, she's going to want to see a very strong ROI case.",
+      "turn_index": 29,
+      "paralinguistic": {
+        "pause_before_sec": 0.7,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "hesitant",
+        "behaviors": [
+          "avoiding_eye_contact",
+          "fidgeting"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I can absolutely help with that. We have ROI calculators and case studies from similar enterprises. Would it be helpful if I joined a call with your CFO to walk through the financial impact?",
+      "turn_index": 30,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "helpful",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Um, potentially. But I need to vet this internally first. I can't bring vendors to the CFO without doing my due diligence.",
+      "turn_index": 31,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "Um"
+        ],
+        "tone": "defensive",
+        "behaviors": [
+          "crossed_arms",
+          "rigid_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "Robert, I can help coordinate that. I think if we present a united front to the CFO, we'll have a much stronger case. I'm really confident about SafeGuard.",
+      "turn_index": 32,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "supportive",
+        "behaviors": [
+          "lean_forward",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Jennifer, I appreciate your enthusiasm, but I need to be thorough here. We're talking about a major infrastructure change. The risk is significant if something goes wrong.",
+      "turn_index": 33,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "firm",
+        "behaviors": [
+          "direct_eye_contact",
+          "measured_gestures"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Robert, your caution is exactly what makes you good at your job. What would help you feel more confident about the risk? Would customer references help? Technical deep dives with our engineering team?",
+      "turn_index": 34,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "empathetic",
+        "behaviors": [
+          "open_posture",
+          "attentive"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "References would be useful, yes. Preferably companies in our industry with similar security requirements. And I'd want to speak to their CISOs directly, not just read case studies.",
+      "turn_index": 35,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "measured",
+        "behaviors": [
+          "note_taking",
+          "thoughtful_expression"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I can absolutely arrange that. I have three CISOs from financial services companies who've agreed to be references. I'll make those introductions this week. What else would you need to see?",
+      "turn_index": 36,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "I need time to review the technical documentation, have my team evaluate the integration requirements, and frankly, I need to finish the CompetitorY evaluation. They're coming back next week with some additional information.",
+      "turn_index": 37,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "distant",
+        "behaviors": [
+          "leaning_back",
+          "looking_at_watch"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "How long do you think you'll need, Robert? I'd really like to get this moving before Q4.",
+      "turn_index": 38,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "concerned",
+        "behaviors": [
+          "furrowed_brow",
+          "looking_at_ciso"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "It's hard to say. At least a few weeks, maybe longer. I can't rush a decision this important. The board won't approve anything without my full endorsement.",
+      "turn_index": 39,
+      "paralinguistic": {
+        "pause_before_sec": 0.9,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "firm",
+        "behaviors": [
+          "crossed_arms",
+          "settled_back_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I completely respect that timeline, Robert. What if we schedule a technical deep dive for next week and I get you those customer references by Friday? Would that help you make progress?",
+      "turn_index": 40,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "accommodating",
+        "behaviors": [
+          "note_taking",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "This looks promising. Yeah, we can schedule something. But I can't make any commitments about timeline right now.",
+      "turn_index": 41,
+      "paralinguistic": {
+        "pause_before_sec": 2.1,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "noncommittal",
+        "behaviors": [
+          "crossed_arms",
+          "minimal_eye_contact",
+          "stiff_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "I think that's a great next step. I'll make sure my team is available for the technical session too. I really believe this is the right solution for us.",
+      "turn_index": 42,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "smiling",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Jennifer, we still need to align internally on this. I appreciate your support, but I need buy-in from my security architects before we go further. They're skeptical of replacing what we've built.",
+      "turn_index": 43,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "corrective",
+        "behaviors": [
+          "direct_eye_contact_with_jennifer",
+          "firm_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Would it be helpful to have your security architects join the technical deep dive? We can address their specific concerns about the integration and migration path.",
+      "turn_index": 44,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Sure, that... that could work. Let me talk to them first. I'll have my assistant reach out to schedule something. But again, no promises on where this goes.",
+      "turn_index": 45,
+      "paralinguistic": {
+        "pause_before_sec": 1.3,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "reluctant",
+        "behaviors": [
+          "gathering_papers",
+          "checking_phone",
+          "disengaged"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Understood. I really appreciate both of your time today. Robert, I'll get you those references and documentation by Friday, and we'll coordinate with your team on the technical session. Sound good?",
+      "turn_index": 46,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "standing",
+          "preparing_to_leave"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ciso",
+      "text": "Yes, that's fine. Thank you.",
+      "turn_index": 47,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "perfunctory",
+        "behaviors": [
+          "brief_nod",
+          "already_looking_away"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_head_of_content",
+      "text": "Thanks so much! I'm looking forward to the next steps. This is really exciting.",
+      "turn_index": 48,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "genuinely_enthusiastic",
+        "behaviors": [
+          "smiling",
+          "handshake",
+          "warm_goodbye"
+        ]
+      }
+    }
+  ]
+}

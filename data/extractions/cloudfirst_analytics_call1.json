@@ -1,0 +1,585 @@
+{
+  "transcript_id": "cloudfirst_analytics_call1",
+  "extraction_timestamp": "2026-02-08T07:01:05.093148+00:00",
+  "surface": {
+    "aspects": [
+      {
+        "aspect": "current attribution process",
+        "sentiment": "negative",
+        "intensity": 0.85,
+        "context": "Prospect describes manual spreadsheet-based attribution as untrustworthy, time-consuming (two days/month), and unable to track cross-channel journeys",
+        "source_utterance_indices": [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "aspect": "podcast attribution / dark funnel",
+        "sentiment": "negative",
+        "intensity": 0.9,
+        "context": "180K annual podcast spend with no reliable way to measure ROI; CEO asking for data-driven decision that prospect cannot provide",
+        "source_utterance_indices": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "aspect": "self-reported attribution module",
+        "sentiment": "mixed",
+        "intensity": 0.7,
+        "context": "Prospect initially skeptical due to prior poor experience with manual how-did-you-hear-about-us fields, but impressed by NLP-based free-text approach with 70-80% match rates",
+        "source_utterance_indices": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "aspect": "pricing",
+        "sentiment": "positive",
+        "intensity": 0.65,
+        "context": "Prospect acknowledges 42K is 'not nothing' but quickly rationalizes ROI against analyst time savings and 180K podcast spend decision; math 'works pretty quickly'",
+        "source_utterance_indices": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "aspect": "channel allocation / strategic value",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "Rep frames real value as confidence in channel allocation decisions, prospect agrees this changes entire strategy",
+        "source_utterance_indices": [
+          14
+        ]
+      },
+      {
+        "aspect": "implementation / ease of setup",
+        "sentiment": "positive",
+        "intensity": 0.85,
+        "context": "3-4 week timeline considered fast; no engineering resources needed, marketing ops can handle it; one-click OAuth for HubSpot praised as 'really important'",
+        "source_utterance_indices": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "aspect": "integrations",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "Native HubSpot integration, plug-and-play Google Ads, UTM-based LinkedIn connector all received positively",
+        "source_utterance_indices": [
+          15,
+          16,
+          18
+        ]
+      },
+      {
+        "aspect": "historical data ingestion",
+        "sentiment": "positive",
+        "intensity": 0.85,
+        "context": "Ability to ingest 12 months of historical data for retroactive attribution validation was a strong positive; prospect said 'Oh that's great'",
+        "source_utterance_indices": [
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "aspect": "engineering resource requirements",
+        "sentiment": "positive",
+        "intensity": 0.8,
+        "context": "Prospect explicitly states no spare engineering cycles; confirmation that marketing ops can handle entire setup was 'really important'",
+        "source_utterance_indices": [
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "aspect": "overall product fit",
+        "sentiment": "positive",
+        "intensity": 0.9,
+        "context": "Prospect states 'I'm pretty sold on this honestly' and plans to recommend to CEO; describes the walkthrough as 'really helpful'",
+        "source_utterance_indices": [
+          21,
+          25,
+          27
+        ]
+      }
+    ],
+    "topics": [
+      {
+        "name": "Multi-touch attribution challenges",
+        "timeline_position": "early",
+        "relevance": 1.0
+      },
+      {
+        "name": "Manual reporting and analyst time waste",
+        "timeline_position": "early",
+        "relevance": 0.8
+      },
+      {
+        "name": "Dark funnel / podcast-to-online attribution",
+        "timeline_position": "early",
+        "relevance": 0.95
+      },
+      {
+        "name": "Self-reported attribution methodology (NLP free-text)",
+        "timeline_position": "mid",
+        "relevance": 0.85
+      },
+      {
+        "name": "Pricing and ROI justification",
+        "timeline_position": "mid",
+        "relevance": 0.8
+      },
+      {
+        "name": "Channel budget allocation decisions",
+        "timeline_position": "mid",
+        "relevance": 0.85
+      },
+      {
+        "name": "Implementation and integrations",
+        "timeline_position": "mid",
+        "relevance": 0.8
+      },
+      {
+        "name": "Engineering resource constraints",
+        "timeline_position": "mid",
+        "relevance": 0.7
+      },
+      {
+        "name": "Historical data ingestion and retroactive analysis",
+        "timeline_position": "mid",
+        "relevance": 0.75
+      },
+      {
+        "name": "Internal buying process and next steps",
+        "timeline_position": "late",
+        "relevance": 0.9
+      },
+      {
+        "name": "Case studies and social proof for internal selling",
+        "timeline_position": "late",
+        "relevance": 0.7
+      }
+    ],
+    "entities": [
+      {
+        "name": "Nina",
+        "entity_type": "person",
+        "role": "Prospect, Head of Data",
+        "mention_count": 2
+      },
+      {
+        "name": "Alisha",
+        "entity_type": "person",
+        "role": "CEO of prospect's company, final decision-maker",
+        "mention_count": 2
+      },
+      {
+        "name": "HubSpot",
+        "entity_type": "product",
+        "role": "Prospect's CRM / marketing automation platform",
+        "mention_count": 4
+      },
+      {
+        "name": "Google Ads",
+        "entity_type": "product",
+        "role": "Prospect's ad platform",
+        "mention_count": 2
+      },
+      {
+        "name": "LinkedIn",
+        "entity_type": "product",
+        "role": "Prospect's advertising and campaign channel",
+        "mention_count": 2
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "multi-touch attribution gaps",
+        "relevance": 1.0,
+        "context": "Core pain point that drove prospect to download the report and take the call"
+      },
+      {
+        "phrase": "dark funnel",
+        "relevance": 0.95,
+        "context": "Rep's framing of the offline-to-online attribution challenge with podcast sponsorships"
+      },
+      {
+        "phrase": "180K annual podcast spend",
+        "relevance": 0.95,
+        "context": "Major budget decision at stake with no data to support doubling down or killing the channel"
+      },
+      {
+        "phrase": "two days a month manual attribution",
+        "relevance": 0.8,
+        "context": "Quantified pain point of analyst time wasted on spreadsheet-based reporting"
+      },
+      {
+        "phrase": "self-reported attribution module",
+        "relevance": 0.85,
+        "context": "Key product differentiator using NLP on free-text fields to capture non-digital touchpoints"
+      },
+      {
+        "phrase": "NLP free-text categorization",
+        "relevance": 0.8,
+        "context": "Technical approach that overcame prospect's skepticism about self-reported data quality"
+      },
+      {
+        "phrase": "70 to 80% match rates",
+        "relevance": 0.75,
+        "context": "Proof point for accuracy of self-reported vs digital signal cross-referencing"
+      },
+      {
+        "phrase": "42K annually",
+        "relevance": 0.85,
+        "context": "Starter tier pricing for prospect's company size and channel mix"
+      },
+      {
+        "phrase": "cobbler's children have no shoes",
+        "relevance": 0.4,
+        "context": "Rapport-building metaphor acknowledging analytics firm with poor internal attribution"
+      },
+      {
+        "phrase": "no spare engineering cycles",
+        "relevance": 0.75,
+        "context": "Key constraint making no-code/low-code implementation a requirement"
+      },
+      {
+        "phrase": "12 months historical data",
+        "relevance": 0.7,
+        "context": "Capability to backfill attribution models for validation before committing to budget changes"
+      },
+      {
+        "phrase": "three to four weeks implementation",
+        "relevance": 0.7,
+        "context": "Fast time-to-value for SMB clients, perceived positively by prospect"
+      },
+      {
+        "phrase": "answer by Friday",
+        "relevance": 0.8,
+        "context": "Clear timeline commitment from prospect indicating high buying intent"
+      },
+      {
+        "phrase": "channel allocation confidence",
+        "relevance": 0.85,
+        "context": "Rep's strategic value framing that resonated strongly with prospect's core need"
+      }
+    ]
+  },
+  "behavioral": {
+    "objection_triples": [
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "We've tried the how-did-you-hear-about-us thing manually. The data quality was terrible. People just pick the first option.",
+          "speaker_role": "prospect_head_of_data",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            9
+          ]
+        },
+        "resolution": {
+          "type": "technical_demo",
+          "specific_language": "The trick is in how you present it and how you weight it. We use a free-text field instead of a dropdown, then use NLP to categorize and cross-reference with digital touchpoint data. Clients typically see 70 to 80% match rates between self-reported and digital signals.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            10
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect acknowledged the approach as clever and moved to pricing questions"
+        },
+        "confidence": 0.95
+      },
+      {
+        "objection": {
+          "type": "pricing",
+          "specific_language": "42K. That's not nothing, but if it saves my analyst two days a month and helps us make a smarter call on 180K in podcast spend, the math works pretty quickly.",
+          "speaker_role": "prospect_head_of_data",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            13
+          ]
+        },
+        "resolution": {
+          "type": "roi_argument",
+          "specific_language": "Exactly. And that analyst time is probably the smaller piece. The real value is having confidence in your channel allocation decisions. If podcasts are actually driving 30% of your pipeline but your current data says 5%, that changes your entire strategy.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            14
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect moved to implementation questions"
+        },
+        "confidence": 0.85
+      },
+      {
+        "objection": {
+          "type": "implementation",
+          "specific_language": "That's really important to us. We don't have spare engineering cycles.",
+          "speaker_role": "prospect_head_of_data",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            19
+          ]
+        },
+        "resolution": {
+          "type": "risk_mitigation",
+          "specific_language": "Marketing ops can handle the whole thing. The HubSpot integration is a one-click OAuth connection. We handle the data pipeline setup on our end.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            18
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect moved on to historical data question"
+        },
+        "confidence": 0.92
+      },
+      {
+        "objection": {
+          "type": "risk",
+          "specific_language": "What about data we've already collected? Can we do any historical attribution or is it forward-looking only?",
+          "speaker_role": "prospect_head_of_data",
+          "conversation_stage": "mid",
+          "source_utterance_indices": [
+            19
+          ]
+        },
+        "resolution": {
+          "type": "risk_mitigation",
+          "specific_language": "We can ingest up to 12 months of historical data from HubSpot and your ad platforms. So you'd actually get some retroactive attribution models to validate against what you're seeing anecdotally with podcasts.",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            20
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect expressed strong buying intent and asked about next steps"
+        },
+        "confidence": 0.93
+      },
+      {
+        "objection": {
+          "type": "authority",
+          "specific_language": "I need to loop in our CEO, Alisha, but I'm going to recommend we do this.",
+          "speaker_role": "prospect_head_of_data",
+          "conversation_stage": "late",
+          "source_utterance_indices": [
+            23
+          ]
+        },
+        "resolution": {
+          "type": "social_proof",
+          "specific_language": "Absolutely. I have two great case studies from similar-sized consulting firms. I'll package those with the proposal. Would it be helpful to have a short call with Alisha as well, or do you think you can handle it internally?",
+          "speaker_role": "rep",
+          "source_utterance_indices": [
+            24
+          ]
+        },
+        "outcome": {
+          "resolved": true,
+          "deal_progressed": true,
+          "next_action": "Prospect committed to presenting internally and providing answer by Friday"
+        },
+        "confidence": 0.9
+      }
+    ],
+    "buying_intent_markers": [
+      {
+        "type": "budget_confirmation",
+        "evidence": "42K. That's not nothing, but if it saves my analyst two days a month and helps us make a smarter call on 180K in podcast spend, the math works pretty quickly.",
+        "confidence": 0.9,
+        "source_utterance_indices": [
+          13
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "What does implementation look like? We run HubSpot and Google Ads primarily.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          15
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "Do we need engineering resources or can my marketing ops person handle it?",
+        "confidence": 0.93,
+        "source_utterance_indices": [
+          17
+        ]
+      },
+      {
+        "type": "timeline_question",
+        "evidence": "Three to four weeks is fast.",
+        "confidence": 0.85,
+        "source_utterance_indices": [
+          17
+        ]
+      },
+      {
+        "type": "implementation_detail",
+        "evidence": "What about data we've already collected? Can we do any historical attribution or is it forward-looking only?",
+        "confidence": 0.92,
+        "source_utterance_indices": [
+          19
+        ]
+      },
+      {
+        "type": "if_to_when_shift",
+        "evidence": "Oh that's great. That would let us test the accuracy before we commit to changing our budget allocation. I'm pretty sold on this honestly. What would next steps look like if we wanted to move forward?",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          21
+        ]
+      },
+      {
+        "type": "next_steps_request",
+        "evidence": "What would next steps look like if we wanted to move forward?",
+        "confidence": 0.98,
+        "source_utterance_indices": [
+          21
+        ]
+      },
+      {
+        "type": "stakeholder_introduction",
+        "evidence": "I need to loop in our CEO, Alisha, but I'm going to recommend we do this.",
+        "confidence": 0.95,
+        "source_utterance_indices": [
+          23
+        ]
+      },
+      {
+        "type": "if_to_when_shift",
+        "evidence": "Send me that proposal and I'll aim to have an answer by Friday.",
+        "confidence": 0.97,
+        "source_utterance_indices": [
+          25
+        ]
+      }
+    ],
+    "competitive_mentions": [],
+    "engagement_trajectory": [
+      {
+        "phase": "early",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Prospect immediately engaged with specific pain points (multi-touch attribution gaps, manual spreadsheet processes, distrust in data). Voluntarily shared detailed context about channels, team size, and analyst time investment. Openly admitted vulnerability ('embarrassingly bad')."
+      },
+      {
+        "phase": "mid",
+        "participation_level": "high",
+        "question_depth": "deep",
+        "energy": "high",
+        "notes": "Prospect pushed back constructively on self-reported attribution (showing critical thinking), asked about pricing proactively, immediately did ROI math in her head ('the math works pretty quickly'), and drilled into implementation specifics (engineering resources, HubSpot integration, historical data). Each answer satisfied her and she escalated engagement further."
+      },
+      {
+        "phase": "late",
+        "participation_level": "high",
+        "question_depth": "moderate",
+        "energy": "high",
+        "notes": "Prospect shifted from evaluation to commitment mode. Explicitly stated 'I'm pretty sold on this honestly,' requested next steps, volunteered to champion internally with CEO, set a concrete timeline ('answer by Friday'), and expressed confidence in her ability to close internally ('She trusts my judgment on data tooling'). Closed with warm, enthusiastic tone."
+      }
+    ]
+  },
+  "psychographic": {
+    "mental_model": {
+      "primary": "efficiency",
+      "secondary": "risk_mitigation",
+      "evidence": [
+        "My analyst spends probably two days a month just building the attribution report, and honestly, I don't trust the numbers.",
+        "42K. That's not nothing, but if it saves my analyst two days a month and helps us make a smarter call on 180K in podcast spend, the math works pretty quickly.",
+        "That's really important to us. We don't have spare engineering cycles.",
+        "That would let us test the accuracy before we commit to changing our budget allocation.",
+        "And our CEO keeps asking me whether we should double down or kill them. I can't give her a straight answer with the data I have."
+      ],
+      "confidence": 0.9,
+      "reasoning": "Nina's primary frame is efficiency: she repeatedly emphasizes time wasted on manual reporting (two days/month), the need for no-engineering-required implementation, and speed to go live. However, a strong secondary model is risk mitigation — not in the compliance sense, but in the decision-risk sense. She is paralyzed by uncertainty around a $180K spend decision and explicitly values the ability to 'test the accuracy before we commit to changing our budget allocation.' Her ROI calculation in [13] blends both: time savings AND de-risking a major budget decision. She is not primarily framing this as a growth play (she never talks about scaling or revenue expansion) nor as pure cost cutting (she doesn't mention headcount reduction). The core anxiety is: 'I'm making consequential decisions with bad data and wasting time producing it.' That's efficiency + risk mitigation."
+    },
+    "persona_indicators": [
+      {
+        "archetype": "analytical_evaluator",
+        "confidence": 0.9,
+        "evidence": [
+          "We've tried the how-did-you-hear-about-us thing manually. The data quality was terrible. People just pick the first option.",
+          "That would let us test the accuracy before we commit to changing our budget allocation.",
+          "What does implementation look like? We run HubSpot and Google Ads primarily.",
+          "Do we need engineering resources or can my marketing ops person handle it?",
+          "What about data we've already collected? Can we do any historical attribution or is it forward-looking only?",
+          "42K. That's not nothing, but if it saves my analyst two days a month and helps us make a smarter call on 180K in podcast spend, the math works pretty quickly."
+        ],
+        "reasoning": "Nina displays a deeply analytical evaluation style throughout. She challenges the rep's self-reported attribution suggestion with prior experience and data quality concerns [9]. She asks methodical, sequenced questions: cost → implementation → resource requirements → historical data → validation. She runs an immediate mental ROI calculation in [13]. She wants to validate the tool against existing anecdotal evidence before committing to budget changes [21]. Every question is grounded in practical, data-informed reasoning. This is a textbook analytical evaluator."
+      },
+      {
+        "archetype": "executive_champion",
+        "confidence": 0.35,
+        "evidence": [
+          "I'm pretty sold on this honestly. What would next steps look like if we wanted to move forward?",
+          "She trusts my judgment on data tooling. If she has questions I'll pull you in, but honestly this should be straightforward.",
+          "I'm going to recommend we do this."
+        ],
+        "reasoning": "Nina shows moderate executive champion signals: she moves quickly from evaluation to commitment, is confident she can drive the decision internally, and claims authority on data tooling decisions. However, she still needs to loop in her CEO and requests case studies for internal persuasion, which tempers this. She's more of an empowered evaluator than a top-down executive champion. The confidence is low because her dominant mode is analytical, not strategic-visionary."
+      },
+      {
+        "archetype": "reluctant_adopter",
+        "confidence": 0.1,
+        "evidence": [
+          "We've tried the how-did-you-hear-about-us thing manually. The data quality was terrible.",
+          "We're not a big budget operation."
+        ],
+        "reasoning": "There are faint traces of caution — prior bad experience with a similar approach and a budget sensitivity flag. But Nina does not display genuine resistance, risk-aversion, or need for extensive reassurance. Her skepticism in [9] is healthy analytical scrutiny, not reluctance. She moves to 'I'm pretty sold' relatively quickly once her concerns are addressed. Very low reluctant adopter signal."
+      }
+    ],
+    "language_fingerprint": {
+      "distinctive_vocabulary": [
+        "stitching together",
+        "spare engineering cycles",
+        "flying blind",
+        "straight answer",
+        "the math works",
+        "make the case internally",
+        "data quality",
+        "budget allocation"
+      ],
+      "metaphors": [
+        "our own marketing attribution is embarrassingly bad (self-deprecating framing of internal inadequacy)",
+        "flying blind (used implicitly via agreement with rep — signals her felt experience of the problem)",
+        "the cobbler's children have no shoes (acknowledged and embraced the rep's metaphor, indicating identification with it)"
+      ],
+      "framing_patterns": [
+        "Problem → quantified impact → decision blocked: 'CEO keeps asking... I can't give her a straight answer with the data I have'",
+        "Cost acknowledgment → immediate ROI justification: '42K. That's not nothing, but if it saves... the math works pretty quickly'",
+        "Prior experience as skepticism anchor: 'We've tried X. The data quality was terrible.'",
+        "Practical constraint surfacing: 'That's really important to us. We don't have spare engineering cycles.'",
+        "Validation-before-commitment: 'That would let us test the accuracy before we commit to changing our budget allocation.'"
+      ]
+    }
+  },
+  "multimodal": null,
+  "overall_confidence": 0.84,
+  "notes": [
+    "No paralinguistic annotations — multimodal extraction skipped"
+  ]
+}

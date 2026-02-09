@@ -1,0 +1,38 @@
+You are extracting Layer 1 (Surface) signals from a sales call transcript.
+
+TRANSCRIPT:
+{transcript}
+
+Extract these signal types:
+
+1. ASPECT-BASED SENTIMENT: For each distinct aspect discussed (e.g., "pricing", "product",
+   "integration", "support"), identify the sentiment, intensity (0-1), context explaining
+   the sentiment, and which utterance indices support it. A single utterance can contain
+   multiple aspects with different sentiments.
+
+2. TOPIC DETECTION: What subjects are discussed? Position each in the conversation
+   timeline (early/mid/late) and rate relevance (0-1).
+
+3. NAMED ENTITIES: People, companies, products, and competitors mentioned. Include
+   entity type, role if inferable, and mention count.
+
+4. KEY PHRASES: Important terms and concepts, weighted by relevance to the sales context.
+
+Return ONLY valid JSON:
+{{
+  "aspects": [
+    {{"aspect": "string", "sentiment": "positive|negative|neutral|mixed",
+      "intensity": 0.0-1.0, "context": "string or null",
+      "source_utterance_indices": [int]}}
+  ],
+  "topics": [
+    {{"name": "string", "timeline_position": "early|mid|late", "relevance": 0.0-1.0}}
+  ],
+  "entities": [
+    {{"name": "string", "entity_type": "person|company|product|competitor",
+      "role": "string or null", "mention_count": int}}
+  ],
+  "key_phrases": [
+    {{"phrase": "string", "relevance": 0.0-1.0, "context": "string or null"}}
+  ]
+}}

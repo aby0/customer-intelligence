@@ -1,0 +1,652 @@
+{
+  "account": {
+    "company_name": "Meridian Healthcare",
+    "company_size": "enterprise",
+    "industry": "Healthcare",
+    "deal_stage": "negotiation",
+    "deal_outcome": "stalled",
+    "stakeholders": [
+      {
+        "name": "Dr. James Okafor",
+        "role": "Chief Medical Officer",
+        "persona_type": "reluctant_adopter"
+      },
+      {
+        "name": "Rachel Nguyen",
+        "role": "VP Digital Health",
+        "persona_type": "executive_champion"
+      },
+      {
+        "name": "Steven Brooks",
+        "role": "Compliance Director",
+        "persona_type": "analytical_evaluator"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "meridian_healthcare_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 42,
+    "participants": [
+      "rep",
+      "prospect_chief_medical_officer",
+      "prospect_vp_digital_health",
+      "prospect_compliance_director"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Thanks everyone for joining. Rachel, you mentioned in our last email that the patient engagement analytics pilot went well. I thought today we could talk about what a broader rollout would look like.",
+      "turn_index": 0,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "smile"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "Yes, the pilot results were really encouraging. We saw a 23% improvement in patient follow-up adherence in the two departments where we deployed. Dr. Okafor has seen the data and Steven's been reviewing the compliance implications.",
+      "turn_index": 1,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "excited",
+        "behaviors": [
+          "gesturing",
+          "referencing_documents"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "I've seen the numbers, yes. A 23% improvement in two departments is interesting but it's not enough to draw conclusions from. How many patients were in the pilot cohort?",
+      "turn_index": 2,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "measured",
+        "behaviors": [
+          "leaning_back",
+          "arms_on_armrests"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "The pilot covered 1,200 patients across cardiology and endocrinology over 90 days. I understand the sample size concern. That's actually one reason a broader rollout makes sense, to get statistically significant data across your full patient population.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Or we could extend the pilot for another 90 days with a larger cohort and not commit to a full platform purchase.",
+      "turn_index": 4,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "pragmatic",
+        "behaviors": [
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "Before we discuss scope, I need to flag something. The pilot ran under our research exemption for HIPAA. A full rollout would require a completely different compliance review. We'd need a BAA amendment, data flow documentation, and potentially a third-party security audit.",
+      "turn_index": 5,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "formal",
+        "behaviors": [
+          "consulting_notes",
+          "pen_in_hand"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's a great point, Steven. We've gone through that process with several health systems. We have a standard BAA that covers the full platform deployment, and we completed SOC 2 Type II and HITRUST certification last year. I can send those reports over today.",
+      "turn_index": 6,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "HITRUST is good. That saves us some work. But I'd still need to understand exactly where PHI is stored, how it's encrypted in transit and at rest, and what your breach notification timeline looks like. Our last vendor took 72 hours to notify us of an incident. That's unacceptable.",
+      "turn_index": 7,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "pointed",
+        "behaviors": [
+          "note_taking",
+          "eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Our breach notification SLA is 24 hours. PHI is encrypted with AES-256 at rest and TLS 1.3 in transit. We host on AWS GovCloud for healthcare clients. I'll include our full security whitepaper with the compliance documentation.",
+      "turn_index": 8,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "AWS GovCloud, 24-hour notification, AES-256. Okay. I'll need to verify all of this, but that's at least in the right ballpark. The review itself will take my team four to six weeks minimum.",
+      "turn_index": 9,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "methodical",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "Steven, can we fast-track that at all? I was hoping to have the platform deployed across at least five departments by Q3.",
+      "turn_index": 10,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "urgent",
+        "behaviors": [
+          "turning_to_compliance_director"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "Rachel, compliance reviews don't get fast-tracked. We had the DataVault incident last year precisely because we rushed a vendor onboarding. I won't do that again.",
+      "turn_index": 11,
+      "paralinguistic": {
+        "pause_before_sec": 0.3,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "firm",
+        "behaviors": [
+          "crossed_arms"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Steven's right. Patient data is non-negotiable. And I have another concern. The pilot showed improved follow-up adherence, but I want to understand the clinical workflow impact. My physicians are already spending too much time on screens and not enough with patients.",
+      "turn_index": 12,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "concerned",
+        "behaviors": [
+          "leaning_forward",
+          "folded_hands"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's actually one of our core design principles. The platform works behind the scenes. Physicians don't interact with it directly. It analyzes existing EHR data and triggers automated outreach to patients through their preferred channel, text, email, or patient portal. Your clinical staff just sees a dashboard summary of engagement metrics.",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Automated outreach to patients concerns me. What if it sends an incorrect reminder or contradicts physician instructions? Who's liable for that?",
+      "turn_index": 14,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "alarmed",
+        "behaviors": [
+          "sitting_up_straight",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "All outreach templates are configured and approved by your clinical team before deployment. The system doesn't generate content on its own. It uses the templates your team creates, triggered by appointment data and care protocol timelines. Liability stays exactly where it is today.",
+      "turn_index": 15,
+      "paralinguistic": {
+        "pause_before_sec": 0.3,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "reassuring",
+        "behaviors": [
+          "open_palms",
+          "steady_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Okay. That's better than I assumed. But I'd want our legal team to review that liability question specifically.",
+      "turn_index": 16,
+      "paralinguistic": {
+        "pause_before_sec": 1.8,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "cautious",
+        "behaviors": [
+          "minimal_eye_contact",
+          "touching_chin"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "James, we can loop legal in this week. They reviewed the pilot agreement already so they have context. Let's talk about the business case. The pilot showed 23% improvement. If we extrapolate that across our 85,000 annual patient encounters, we're looking at significantly reduced readmission rates.",
+      "turn_index": 17,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "persuasive",
+        "behaviors": [
+          "referencing_tablet",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "You can't extrapolate a pilot linearly like that, Rachel. Different departments have different patient populations, different compliance requirements, different workflow patterns.",
+      "turn_index": 18,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "corrective",
+        "behaviors": [
+          "shaking_head_slightly"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Dr. Okafor is right that linear extrapolation isn't accurate. What we've seen across our healthcare clients is that a conservative 12 to 15% improvement in adherence is realistic at scale. For a system your size, that typically translates to 8 to 12 million dollars in reduced readmission penalties annually.",
+      "turn_index": 19,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "8 to 12 million. That's a wide range. What's your pricing for the full deployment?",
+      "turn_index": 20,
+      "paralinguistic": {
+        "pause_before_sec": 0.7,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "probing",
+        "behaviors": [
+          "leaning_forward_slightly"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "For an enterprise health system with your patient volume, the full platform with all departments would be $620,000 annually. That includes unlimited users, all integrations, 24/7 support, and quarterly business reviews.",
+      "turn_index": 21,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "620,000. And we've already talked to CareStack about their patient engagement platform. They came in under 400.",
+      "turn_index": 22,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "testing",
+        "behaviors": [
+          "watching_reaction"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "CareStack is a solid platform for basic patient communication. The difference is they don't have the analytics engine that drives the adherence improvements you saw in the pilot. Their approach is templated messaging. Ours is predictive. We identify which patients are at risk of non-adherence before they miss an appointment.",
+      "turn_index": 23,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "steady_eye_contact",
+          "measured_gestures"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "Predictive analytics on patient data raises additional compliance questions. Are you using any AI or machine learning models? Because that brings FDA SaMD classification into play potentially.",
+      "turn_index": 24,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "concerned",
+        "behaviors": [
+          "pen_tapping",
+          "furrowed_brow"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Good question. Our models are statistical risk scoring, not clinical decision support. We identify engagement patterns, not clinical diagnoses. We've had this reviewed by two healthcare regulatory firms and confirmed we don't fall under SaMD classification. I can share those opinion letters.",
+      "turn_index": 25,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "I'd want to see those letters, and I'd want our own regulatory counsel to review them independently. This is getting more complex than I initially thought.",
+      "turn_index": 26,
+      "paralinguistic": {
+        "pause_before_sec": 1.3,
+        "energy": "low",
+        "pitch": "falling",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "overwhelmed",
+        "behaviors": [
+          "rubbing_forehead",
+          "reviewing_notes"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "Steven, I understand there's work to do on the compliance side, but we can't let process kill a project that's demonstrably improving patient outcomes. The pilot data is clear.",
+      "turn_index": 27,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "frustrated",
+        "behaviors": [
+          "hand_gesture",
+          "direct_look"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Rachel, no one is killing the project. But we have obligations. Patient data, regulatory compliance, clinical liability. These aren't optional steps we can skip because the pilot went well.",
+      "turn_index": 28,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "authoritative",
+        "behaviors": [
+          "open_palms_down",
+          "slow_deliberate_speech"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I completely agree. Getting the compliance review right is essential, and rushing it would be a mistake. What if we structured this in phases? Phase one would be extending the pilot to three additional departments while Steven's team completes the full compliance review. That gives you more data points without requiring a full platform commitment.",
+      "turn_index": 29,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "collaborative",
+        "behaviors": [
+          "open_posture",
+          "looking_between_stakeholders"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "Would an extended pilot still fall under our research exemption?",
+      "turn_index": 30,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "That would depend on how you structure it. Our healthcare counsel can work with your legal team to determine the right framework. We've done extended pilots under both research and operational designations.",
+      "turn_index": 31,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "I'd support an extended pilot. It gives us better data and time to do this properly. But I want to be clear, an extended pilot is not a commitment to a full rollout. If the compliance review surfaces issues, or if the expanded data doesn't hold up, we walk away.",
+      "turn_index": 32,
+      "paralinguistic": {
+        "pause_before_sec": 2.0,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "guarded",
+        "behaviors": [
+          "crossed_arms",
+          "steady_gaze"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "That's fair. An extended pilot with a path to full deployment. I can work with that.",
+      "turn_index": 33,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "accepting",
+        "behaviors": [
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Great. So here's what I'd propose. An extended pilot covering five departments at a reduced rate of $180,000 for six months. Steven's team runs the compliance review in parallel. At the end of six months, if everything checks out, we convert to the full platform agreement.",
+      "turn_index": 34,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Who would need to approve the extended pilot budget? Rachel, does that come from your digital health budget or does it need to go to the board?",
+      "turn_index": 35,
+      "paralinguistic": {
+        "pause_before_sec": 0.6,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "procedural",
+        "behaviors": [
+          "turning_to_vp"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "Anything over 100K needs board approval for new vendors. So yes, this would go to the board.",
+      "turn_index": 36,
+      "paralinguistic": {
+        "pause_before_sec": 0.4,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [
+          "uh"
+        ],
+        "tone": "deflated",
+        "behaviors": [
+          "slumping_slightly"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "The next board meeting isn't until late March. And the agenda is already packed with the facility expansion proposal.",
+      "turn_index": 37,
+      "paralinguistic": {
+        "pause_before_sec": 1.0,
+        "energy": "low",
+        "pitch": "falling",
+        "hesitation_markers": [],
+        "tone": "matter_of_fact",
+        "behaviors": [
+          "checking_calendar"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "We could try to get it added to the April agenda. But that pushes everything out by two months.",
+      "turn_index": 38,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "Which actually works for me. Two months gives my team time to do the compliance review properly. If we present to the board in April, we'd have the compliance assessment complete and could give them a full picture.",
+      "turn_index": 39,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "pragmatic",
+        "behaviors": [
+          "nodding",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That timeline could work. In the meantime, I can provide all the documentation Steven needs for the compliance review. We could also arrange a technical deep-dive with your IT security team if that would help accelerate things.",
+      "turn_index": 40,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Fine. Let's do this. Steven, start the compliance review. Rachel, prepare the board materials. And let's not commit to anything with the vendor until the board weighs in. Is that clear?",
+      "turn_index": 41,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "decisive",
+        "behaviors": [
+          "looking_at_both_colleagues",
+          "firm_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "Clear. Though I want to say for the record that every month we delay is more patients who aren't getting the follow-up they need.",
+      "turn_index": 42,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "passionate",
+        "behaviors": [
+          "leaning_forward",
+          "emphatic_gesture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_chief_medical_officer",
+      "text": "Noted. But I'd rather delay than deploy something that puts patient data at risk or creates liability we haven't accounted for.",
+      "turn_index": 43,
+      "paralinguistic": {
+        "pause_before_sec": 0.3,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "final",
+        "behaviors": [
+          "standing_up"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I respect that approach, Dr. Okafor. I'll get all the compliance documentation and security reports to Steven by end of week. Rachel, I'll also send you a board-ready summary with the pilot data and ROI projections you can use for the April presentation.",
+      "turn_index": 44,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "note_taking",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_compliance_director",
+      "text": "Send everything to me directly. I'll coordinate with IT security on our end. Let's plan to touch base in three weeks once I've had a chance to go through the materials.",
+      "turn_index": 45,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "rep",
+      "text": "Will do. Thank you all for a productive conversation. I know there's a lot to work through, but the pilot results are worth pursuing.",
+      "turn_index": 46,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_vp_digital_health",
+      "text": "Thanks. I'll be in touch as we prep for the board meeting.",
+      "turn_index": 47,
+      "paralinguistic": null
+    }
+  ]
+}

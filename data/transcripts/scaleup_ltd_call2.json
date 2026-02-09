@@ -1,0 +1,425 @@
+{
+  "account": {
+    "company_name": "ScaleUp Ltd",
+    "company_size": "smb",
+    "industry": "E-commerce",
+    "deal_stage": "close",
+    "deal_outcome": "won",
+    "stakeholders": [
+      {
+        "name": "Alex Turner",
+        "role": "CEO",
+        "persona_type": "executive_champion"
+      },
+      {
+        "name": "Priya Sharma",
+        "role": "Marketing Director",
+        "persona_type": "analytical_evaluator"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "scaleup_ltd_call2",
+    "call_date": "2026-02-07",
+    "call_number": 2,
+    "duration_minutes": 25,
+    "participants": [
+      "rep",
+      "prospect_ceo",
+      "prospect_marketing_director"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Alex, Priya, great to see you both again! Thanks for making the time today. I know you wanted to review the case study I sent over after our last conversation.",
+      "turn_index": 0,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "smiling"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Yes! Actually, that case study was exactly what we needed to see. The results that fashion retailer got in Q4 were incredible—thirty-five percent increase in conversion rate. That's the kind of impact we're looking for.",
+      "turn_index": 1,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "excited",
+        "behaviors": [
+          "lean_forward",
+          "gesturing_with_hands"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "I reviewed it as well. The methodology was solid, and I appreciate that you broke down the attribution model they used. That level of transparency helped address some of my concerns from last week.",
+      "turn_index": 2,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "note_taking",
+          "looking_at_document"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I'm really glad that resonated with you both. Priya, I remember you wanted to see concrete data on ROI, especially given the investment we discussed. That retailer had similar concerns about pricing initially.",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Right, and their initial spend was comparable to what you quoted us. I ran some projections based on our current conversion rates and average order value. If we can achieve even twenty percent of what they did, we'd see payback in about five months.",
+      "turn_index": 4,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "referencing_notes",
+          "adjusting_glasses"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Five months is well within our tolerance. And frankly, if we can scale the way they did going into our peak season, this becomes a no-brainer. We've been stuck at our current performance level for three quarters now.",
+      "turn_index": 5,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "decisive",
+        "behaviors": [
+          "lean_forward",
+          "eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's exactly the inflection point where we see the most impact. When we last spoke, you mentioned you'd been evaluating CompetitorX as well. Have you had a chance to compare their approach to what we discussed?",
+      "turn_index": 6,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "We did have a follow-up call with them. Their pricing came in lower, but their implementation timeline was twelve weeks versus your six. And honestly, their platform felt more rigid—less customization for our specific product categories.",
+      "turn_index": 7,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "measured",
+        "behaviors": [
+          "looking_down",
+          "slight_head_tilt"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Yeah, and the twelve weeks is a problem. We need to be live before our Q3 push. That's non-negotiable for us. Six weeks we can work with.",
+      "turn_index": 8,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "firm",
+        "behaviors": [
+          "direct_eye_contact",
+          "emphatic_gesture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Timeline is critical, especially with seasonal businesses like yours. Our implementation team has done this exact rollout with three other e-commerce companies this quarter, so we've got the process down. Week one is discovery and integration planning, weeks two through four are technical implementation, and weeks five and six are testing and optimization.",
+      "turn_index": 9,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "gesturing_to_screen",
+          "maintaining_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "That sounds reasonable, I suppose. My main concern is resource allocation on our end. As we discussed last time, our technical team is pretty lean. How much of their time are we realistically talking about during implementation?",
+      "turn_index": 10,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "cautious",
+        "behaviors": [
+          "crossed_arms",
+          "slight_lean_back"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Great question. Your technical team would need to dedicate roughly ten to fifteen hours per week during weeks two and three—that's the heavy integration phase. Outside of that, we're probably talking five hours a week for the other weeks. We handle the bulk of the configuration ourselves.",
+      "turn_index": 11,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Okay, that's manageable. I was worried it would be significantly more than that.",
+      "turn_index": 12,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "relieved",
+        "behaviors": [
+          "uncrossing_arms",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "This is sounding better and better. I have to say, after sleeping on our last conversation and then seeing that case study with actual numbers, I'm convinced this is the right move for us. When can we start?",
+      "turn_index": 13,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "smiling",
+          "open_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I love the energy, Alex! We could realistically kick off as early as next Monday if we can get contracts finalized by end of week. I'd want to lock in our implementation team before they get allocated to other projects.",
+      "turn_index": 14,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Next Monday works from a timeline perspective. I do want to revisit the pricing one more time though. The annual commitment at ninety-six thousand—is there any flexibility there? I know we discussed this last week, but I wanted to ask again now that we're getting serious.",
+      "turn_index": 15,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "medium",
+        "pitch": "falling",
+        "hesitation_markers": [
+          "um",
+          "uh"
+        ],
+        "tone": "hesitant",
+        "behaviors": [
+          "looking_at_notes",
+          "slight_frown"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I appreciate you bringing that up directly. The ninety-six thousand is for the full platform with the advanced analytics module you wanted. I do have some flexibility if we adjusted the payment terms—we could do quarterly payments instead of annual upfront, which might help with cash flow. But the total investment would stay the same.",
+      "turn_index": 16,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "maintaining_eye_contact",
+          "open_hands"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Quarterly payments actually help us quite a bit. That spreads it across our budget cycles better. Priya, does that address your concern?",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Yes, that definitely helps. That was more about budget planning than the actual number. If we're committing to the annual contract with quarterly payments, I can make that work.",
+      "turn_index": 18,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "measured",
+        "behaviors": [
+          "nodding",
+          "making_note"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Perfect. So we're talking implementation starting next Monday, quarterly payments, and we should be fully live in six weeks—that puts us at mid-June, which is exactly when we need to be ramping up for our summer collection launch.",
+      "turn_index": 19,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "decisive",
+        "behaviors": [
+          "lean_forward",
+          "counting_on_fingers"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's exactly right. And just to confirm, you'll have your dedicated customer success manager from day one—that's included in your package. They'll be your main point of contact throughout implementation and beyond.",
+      "turn_index": 20,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Good. Having that single point of contact will make things much smoother. I've dealt with vendors before where you get bounced around between different teams and it creates confusion.",
+      "turn_index": 21,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Alright, I think we're aligned here. What do we need to do on our end to make this happen? What's the next step?",
+      "turn_index": 22,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "eager",
+        "behaviors": [
+          "lean_forward",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "I'll send over the contract this afternoon with the quarterly payment terms we just discussed. Once you've both had a chance to review and sign, I'll immediately loop in our implementation lead to schedule the kickoff call for Monday. Should be pretty straightforward.",
+      "turn_index": 23,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "gesturing",
+          "smiling"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Sounds good. I'll review it and coordinate with our legal team if needed, but I don't anticipate any issues at this point. This should move quickly.",
+      "turn_index": 24,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "nodding",
+          "collecting_papers"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Excellent. I'm really excited about this partnership. I think this is going to be exactly what we need to break through our current plateau and scale the way we've been wanting to.",
+      "turn_index": 25,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "standing_up",
+          "extending_hand",
+          "broad_smile"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That makes two of us, Alex. I'm confident you're going to see results quickly. I'll get that contract over within the next couple of hours, and we'll get this show on the road. Thanks again for your time today, both of you.",
+      "turn_index": 26,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "standing_up",
+          "handshake",
+          "smiling"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+You are detecting text-audio divergence in a sales call transcript
+that includes paralinguistic annotations (pauses, energy levels, pitch, tone, behaviors).
+
+TRANSCRIPT:
+{transcript}
+
+For each utterance that has paralinguistic annotations, analyze whether the NON-VERBAL
+signals contradict the TEXT content:
+
+1. DIVERGENCE SIGNALS: Identify utterances where text sentiment and non-verbal cues disagree.
+   - text_positive_audio_negative: positive words but hesitation, low energy, falling pitch
+   - text_negative_audio_positive: complaint but high energy, rising pitch (passion, not defeat)
+   - text_neutral_audio_negative: neutral words but stress signals (long pauses, low energy)
+   - text_neutral_audio_positive: neutral words but enthusiasm cues (high energy, leaning forward)
+   For each, list the specific non-verbal cues and interpret what the divergence means.
+
+2. COMPOSITE SENTIMENTS: For each divergent utterance, provide the adjusted sentiment —
+   what the speaker likely *actually* feels, accounting for non-verbal signals.
+   The confidence should be lowered when divergence is detected (the signal is ambiguous).
+
+Only flag genuine divergences — if text and non-verbal cues agree, don't include them.
+
+Return ONLY valid JSON:
+{{
+  "divergences": [
+    {{"utterance_index": int,
+      "type": "text_positive_audio_negative|text_negative_audio_positive|text_neutral_audio_negative|text_neutral_audio_positive",
+      "text_sentiment": "positive|negative|neutral|mixed",
+      "nonverbal_cues": ["2.3s pause", "falling pitch", "low energy"],
+      "interpretation": "likely hidden pricing concern",
+      "confidence": 0.0-1.0}}
+  ],
+  "composite_sentiments": [
+    {{"utterance_index": int,
+      "original_text_polarity": "positive|negative|neutral|mixed",
+      "adjusted_polarity": "positive|negative|neutral|mixed",
+      "confidence": 0.0-1.0,
+      "note": "explanation of adjustment or null"}}
+  ]
+}}
+
+If no divergences are found, return empty lists for both fields.

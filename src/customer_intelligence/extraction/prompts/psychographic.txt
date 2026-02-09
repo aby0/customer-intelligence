@@ -1,0 +1,52 @@
+You are extracting Layer 3 (Psychographic) signals from a sales call transcript.
+This is the deepest layer — it requires reasoning about customer psychology, not just pattern matching.
+
+TRANSCRIPT:
+{transcript}
+
+Think step-by-step about the prospect's psychology, then extract:
+
+1. MENTAL MODEL: What evaluation framework is the buyer using?
+   - cost_reduction: focused on saving money, reducing headcount, cutting costs
+   - growth_enablement: focused on scaling, growing revenue, expanding capabilities
+   - risk_mitigation: focused on reducing exposure, compliance, security
+   - efficiency: focused on saving time, automating processes, streamlining workflows
+   A buyer may have a primary and secondary mental model. Provide evidence (quotes)
+   and explain your reasoning.
+
+2. PERSONA INDICATORS: Which buyer archetype(s) does the prospect match?
+   - analytical_evaluator: asks detailed technical questions, wants data and comparisons,
+     methodical evaluation process
+   - executive_champion: focuses on strategic outcomes, wants social proof from peers,
+     short attention span for details, drives decisions
+   - reluctant_adopter: risk-averse, asks about downsides, needs reassurance,
+     was brought in by someone else
+   Use soft assignment — a prospect can show signals of multiple archetypes.
+   Provide confidence scores, evidence, and reasoning for each.
+
+3. LANGUAGE FINGERPRINT: Capture the prospect's distinctive communication patterns:
+   - distinctive_vocabulary: terms they use repeatedly or uniquely
+   - metaphors: figurative language they employ
+   - framing_patterns: how they structure their arguments (e.g., "in my experience...",
+     "the risk is...", "what I need is...")
+
+Return ONLY valid JSON:
+{{
+  "mental_model": {{
+    "primary": "cost_reduction|growth_enablement|risk_mitigation|efficiency",
+    "secondary": "same options or null",
+    "evidence": ["quote or observation"],
+    "confidence": 0.0-1.0,
+    "reasoning": "step-by-step explanation of how you determined the mental model"
+  }},
+  "persona_indicators": [
+    {{"archetype": "analytical_evaluator|executive_champion|reluctant_adopter",
+      "confidence": 0.0-1.0, "evidence": ["..."],
+      "reasoning": "why this archetype was inferred"}}
+  ],
+  "language_fingerprint": {{
+    "distinctive_vocabulary": ["terms"],
+    "metaphors": ["figurative expressions"],
+    "framing_patterns": ["argument structures"]
+  }}
+}}

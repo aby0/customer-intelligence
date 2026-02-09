@@ -1,0 +1,523 @@
+{
+  "account": {
+    "company_name": "ScaleUp Ltd",
+    "company_size": "smb",
+    "industry": "E-commerce",
+    "deal_stage": "close",
+    "deal_outcome": "won",
+    "stakeholders": [
+      {
+        "name": "Alex Turner",
+        "role": "CEO",
+        "persona_type": "executive_champion"
+      },
+      {
+        "name": "Priya Sharma",
+        "role": "Marketing Director",
+        "persona_type": "analytical_evaluator"
+      }
+    ]
+  },
+  "call_metadata": {
+    "call_id": "scaleup_ltd_call1",
+    "call_date": "2026-02-07",
+    "call_number": 1,
+    "duration_minutes": 25,
+    "participants": [
+      "rep",
+      "prospect_ceo",
+      "prospect_marketing_director"
+    ]
+  },
+  "utterances": [
+    {
+      "speaker": "rep",
+      "text": "Alex, Priya, thanks so much for making the time today. I know you're both incredibly busy scaling ScaleUp Ltd. How's the quarter looking for you?",
+      "turn_index": 0,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "smiling"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "It's been wild, honestly. We're up 40% year-over-year, but the growing pains are real. That's actually why we wanted to talk.",
+      "turn_index": 1,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "candid",
+        "behaviors": [
+          "gesturing",
+          "lean_forward"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Yes, we're evaluating a few solutions right now. We've been looking at CompetitorX as well, so we want to make sure we understand what differentiates your platform.",
+      "turn_index": 2,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "note_taking",
+          "neutral_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely, that's a smart approach. CompetitorX is a solid tool, no question. Where we really shine is in the speed of implementation and the ROI we deliver in the first 90 days. Can you tell me a bit more about what's driving this evaluation right now?",
+      "turn_index": 3,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Our customer acquisition costs are climbing, and we're not getting the visibility we need into which channels are actually performing. We're making decisions in the dark, and at our growth rate, that's becoming really expensive.",
+      "turn_index": 4,
+      "paralinguistic": {
+        "pause_before_sec": 1.2,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "urgent",
+        "behaviors": [
+          "lean_forward",
+          "hand_gestures"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "We need attribution that actually works across our channels. Our current setup only tracks last-click, which doesn't tell us the full story. But we also need to see proof that whatever solution we choose will actually solve this problem.",
+      "turn_index": 5,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "crossed_arms",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That makes total sense. Last-click attribution is basically telling you who scored the goal, not who made the assists. What if you could see the entire customer journey and redistribute your budget based on what's actually influencing conversions?",
+      "turn_index": 6,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "That's exactly what we need! If we could redirect even 20% of our budget to higher-performing channels, that would be massive for us.",
+      "turn_index": 7,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "excited",
+        "behaviors": [
+          "lean_forward",
+          "nodding_vigorously"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Can you walk me through the methodology? How does your attribution model actually work, and what data sources does it pull from?",
+      "turn_index": 8,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "skeptical",
+        "behaviors": [
+          "leaning_back",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Great question. We use a machine learning model that weighs touchpoints based on their actual influence on conversion. We integrate with your ad platforms, CRM, email systems, even offline events if needed. The model learns from your specific customer behavior patterns rather than using generic industry benchmarks.",
+      "turn_index": 9,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "And what's the sample size needed for the model to be statistically significant? We're doing about 15,000 transactions a month.",
+      "turn_index": 10,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "analytical",
+        "behaviors": [
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "At 15,000 transactions monthly, you're well above the threshold. We typically need about 5,000 conversions to establish patterns. You'd start seeing actionable insights within 2-3 weeks of implementation.",
+      "turn_index": 11,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Two to three weeks? That's incredibly fast. How long does implementation usually take?",
+      "turn_index": 12,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "impressed",
+        "behaviors": [
+          "lean_forward",
+          "eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "For an e-commerce business like yours, we're usually live within a week. The technical integration is straightforward, and our team handles most of the heavy lifting.",
+      "turn_index": 13,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "What about the investment? What are we looking at in terms of pricing?",
+      "turn_index": 14,
+      "paralinguistic": {
+        "pause_before_sec": 1.5,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "cautious",
+        "behaviors": [
+          "crossed_arms",
+          "minimal_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "For your transaction volume and the features we've discussed, we're looking at $4,500 per month on an annual contract. That includes implementation, training, and ongoing support.",
+      "turn_index": 15,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "maintaining_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "That's significantly higher than CompetitorX. They quoted us $2,800 per month. What justifies the difference?",
+      "turn_index": 16,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "challenging",
+        "behaviors": [
+          "crossed_arms",
+          "direct_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's a fair question. CompetitorX uses rule-based attribution which requires a lot of manual configuration and maintenance. Our machine learning approach adapts automatically as your business evolves. Most of our e-commerce clients see ROI within 60 days because they're able to reallocate budget much faster.",
+      "turn_index": 17,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "If we're wasting even 10% of our monthly ad spend, that's like $8,000 right there. The pricing actually makes sense if it delivers.",
+      "turn_index": 18,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "convinced",
+        "behaviors": [
+          "nodding",
+          "lean_forward",
+          "gesturing"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "Sure, that sounds reasonable in theory. But do you have case studies from similar e-commerce companies? I need to see actual data on the results you've delivered.",
+      "turn_index": 19,
+      "paralinguistic": {
+        "pause_before_sec": 0.8,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [
+          "um"
+        ],
+        "tone": "reserved",
+        "behaviors": [
+          "note_taking",
+          "avoiding_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Absolutely. I can send over three case studies today, including one from an e-commerce company at your exact scale. They reduced CAC by 23% in the first quarter.",
+      "turn_index": 20,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "That would be great. Priya, what else do you need to feel comfortable moving forward?",
+      "turn_index": 21,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "directive",
+        "behaviors": [
+          "turning_to_colleague"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "I'd like to review those case studies and understand the technical requirements on our end. We also need to discuss this with our CFO before committing to the annual contract.",
+      "turn_index": 22,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "measured",
+        "behaviors": [
+          "note_taking",
+          "neutral_posture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Yeah, let's take a look at what you send over and circle back. This definitely feels like the right direction though.",
+      "turn_index": 23,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "positive_but_measured",
+        "behaviors": [
+          "nodding",
+          "glancing_at_colleague"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Perfect. I'll get those case studies over within the hour. How does early next week look for a follow-up?",
+      "turn_index": 24,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "That works. We'll review everything and be in touch.",
+      "turn_index": 25,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "low",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "closing_laptop"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Hi Alex, hi Priya! Thanks for making time today. I'm excited to dive back in after you had a chance to review those case studies.",
+      "turn_index": 26,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "smiling",
+          "lean_forward"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "The case study from the apparel company was really compelling. The numbers speak for themselves. We showed it to our CFO and he's on board with moving forward.",
+      "turn_index": 27,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "decisive",
+        "behaviors": [
+          "lean_forward",
+          "direct_eye_contact",
+          "nodding"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "I have to say, the technical breakdown you provided really addressed my concerns. The methodology is solid, and seeing a 23% CAC reduction with documented proof made a big difference.",
+      "turn_index": 28,
+      "paralinguistic": {
+        "pause_before_sec": 0.5,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "satisfied",
+        "behaviors": [
+          "nodding",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "That's fantastic to hear. I'm glad the data resonated with you both. What questions can I answer to help move this forward?",
+      "turn_index": 29,
+      "paralinguistic": null
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Honestly, I think we're ready. When can we start? We're heading into Q4 which is our biggest quarter, and I want this in place as soon as possible.",
+      "turn_index": 30,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "eager",
+        "behaviors": [
+          "lean_forward",
+          "hand_gestures",
+          "smiling"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "I agree. If we can get this implemented in the next week as you mentioned, we'll have data flowing before our peak season. That timing actually works perfectly.",
+      "turn_index": 31,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "aligned",
+        "behaviors": [
+          "nodding",
+          "making_eye_contact"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "We can absolutely make that happen. I'll get the contract over today, and once we have signatures, our implementation team can kick off as early as Monday. Does that timeline work for you?",
+      "turn_index": 32,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "confident",
+        "behaviors": [
+          "nodding",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_ceo",
+      "text": "Perfect. Send it over and we'll get it signed this week. I'm really excited about this. This is exactly what we need to scale intelligently.",
+      "turn_index": 33,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "enthusiastic",
+        "behaviors": [
+          "lean_forward",
+          "smiling",
+          "handshake_gesture"
+        ]
+      }
+    },
+    {
+      "speaker": "prospect_marketing_director",
+      "text": "I'll coordinate with our dev team on the technical integration. Looking forward to getting started.",
+      "turn_index": 34,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "medium",
+        "pitch": "flat",
+        "hesitation_markers": [],
+        "tone": "professional",
+        "behaviors": [
+          "nodding",
+          "note_taking"
+        ]
+      }
+    },
+    {
+      "speaker": "rep",
+      "text": "Excellent. Welcome to the team! I'll send over the contract and intro you to your implementation manager within the next two hours. This is going to be a great partnership.",
+      "turn_index": 35,
+      "paralinguistic": {
+        "pause_before_sec": null,
+        "energy": "high",
+        "pitch": "rising",
+        "hesitation_markers": [],
+        "tone": "celebratory",
+        "behaviors": [
+          "smiling",
+          "lean_forward",
+          "enthusiastic_gestures"
+        ]
+      }
+    }
+  ]
+}

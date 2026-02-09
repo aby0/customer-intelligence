@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customer-intelligence"
+version = "0.1.0"
+description = "Customer intelligence pipeline: extract deep signals from sales call transcripts"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24.0",
+]
+eval = [
+    "spacy>=3.7",
+    "yake>=0.4.8",
+    "textblob>=0.18",
+]
+demo = [
+    "streamlit>=1.40.0",
+    "plotly>=5.20.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: tests that call the LLM API for extraction",
+    "slow: tests that make multiple LLM-as-judge API calls",
+    "baseline: tests requiring optional NLP dependencies (spacy, yake, textblob)",
+]
